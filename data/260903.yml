@@ -1,0 +1,64 @@
+about:
+  description: Taskwarrior - Command line Task Management
+  license: MIT
+  homepage: https://taskwarrior.org
+  head: d4a7889
+  archived: false
+  latestVersion: v3.5.0
+  collectedAt: 2026-09-03T05:01:48Z
+timeline:
+  created: 2018-02-03
+  lastCommit: 2026-08-28
+  lastRelease: 2026-08-16
+popularity:
+  star: 6033
+  watcher: 56
+  fork: 422
+  release: 22
+  contributor: 189
+  pullRequest: 104
+  issue: 2975
+language:
+  C++: 1526320
+  Python: 817670
+  Rust: 68551
+  Shell: 59327
+  CMake: 27546
+  Vim Script: 14443
+  Perl: 9098
+  C: 3350
+  Dockerfile: 1871
+totalLine: 2528176
+recent:
+  last30d:
+    since: 2026-08-04
+    release: 1
+    mergedPR: 14
+    openPR: 1
+    closedIssue: 3
+    openIssue: 2
+    commit: 16
+  last90d:
+    since: 2026-06-05
+    release: 1
+    mergedPR: 40
+    openPR: 1
+    closedIssue: 13
+    openIssue: 6
+    commit: 44
+  last180d:
+    since: 2026-03-07
+    release: 1
+    mergedPR: 71
+    openPR: 1
+    closedIssue: 19
+    openIssue: 8
+    commit: 72
+  last360d:
+    since: 2025-09-08
+    release: 2
+    mergedPR: 132
+    openPR: 2
+    closedIssue: 40
+    openIssue: 21
+    commit: 143
