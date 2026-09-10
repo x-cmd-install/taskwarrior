@@ -7,7 +7,7 @@ about:
   latestVersion: "v3.5.0"
   latestRelease: "v3.5.0"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T02:42:26Z
+  collectedAt: 2026-09-10T15:49:44Z
 timeline:
   created: 2018-02-03
   lastCommit: 2026-08-28
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2026-08-16
   lastPrerelease: 
 popularity:
-  star: 6055
+  star: 6056
   watcher: 58
   fork: 423
   release: 22
@@ -91,7 +91,7 @@ total:
   commit: 12045
 ---
 path: /home/runner/.x-repo/github.com/GothenburgBitFactory/taskwarrior
-collectedAt: 2026-09-10T02:42:33Z
+collectedAt: 2026-09-10T15:49:51Z
 loc:
   Cpp:
     code: 23828
