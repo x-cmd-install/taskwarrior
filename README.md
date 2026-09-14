@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,060 · **Forks**: 421 · **Open issues**: 2,977 · **Contributors**: 190
+- **Stars**: 6,063 · **Forks**: 421 · **Open issues**: 2,977 · **Contributors**: 190
 
 ## Totals (cumulative)
 
@@ -58,36 +58,18 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 1 | 14 | 1 | 5 | 1 | 7 |
-| last60d | 2026-07-15 | 1 | 31 | 1 | 7 | 2 | 28 |
-| 90d | 2026-06-15 | 1 | 39 | 1 | 15 | 5 | 46 |
-| last180d | 2026-03-17 | 1 | 66 | 1 | 21 | 8 | 70 |
-| 360d | 2025-09-18 | 2 | 126 | 2 | 39 | 21 | 138 |
-| last720d | 2024-09-23 | 6 | 285 | 2 | 124 | 60 | 300 |
+| 30d | 2026-08-15 | 1 | 12 | 1 | 5 | 1 | 7 |
+| last60d | 2026-07-16 | 1 | 31 | 1 | 7 | 2 | 28 |
+| 90d | 2026-06-16 | 1 | 39 | 1 | 14 | 5 | 46 |
+| last180d | 2026-03-18 | 1 | 66 | 1 | 21 | 8 | 70 |
+| 360d | 2025-09-19 | 2 | 126 | 2 | 39 | 21 | 138 |
+| last720d | 2024-09-24 | 6 | 285 | 2 | 124 | 60 | 300 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
 | [task-3.5.0.tar.gz](https://github.com/GothenburgBitFactory/taskwarrior/releases/download/v3.5.0/task-3.5.0.tar.gz) | 947.5 KiB | `native/unknown` |
-
-## Distribution status
-
-Reported by **164** distros on [repology.org](https://repology.org/project/taskwarrior). **22** are ✅ on the latest upstream release, **125** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `3.4.2` | 🪦 legacy |
-| Debian 14 | `3.4.2` | ⚠️ outdated |
-| Debian 13 | `2.6.2` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `2.6.2` | ⚠️ outdated |
-| Arch | `3.5.0` | ✅ latest |
-| Homebrew | `3.5.0` | ✅ latest |
-| Fedora rawhide | `3.4.2` | ⚠️ outdated |
-| Nix unstable | `2.6.2` | 🪦 legacy |
-| Void | `3.5.0` | ✅ latest |
-| Alpine edge | `2.6.2` | ⚠️ outdated |
-| openSUSE Tumbleweed | `3.4.2` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -98,4 +80,4 @@ Install metadata for taskwarrior lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T02:43:30Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T02:58:26Z._
