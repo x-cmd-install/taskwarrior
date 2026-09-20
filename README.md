@@ -4,7 +4,7 @@
 
 Taskwarrior - Command line Task Management
 
-![taskwarrior](https://repo.x-cmd.io/taskwarrior.svg)
+[![x-cmd/install — taskwarrior Code Quality Monitoring Repo Card](https://repo.x-cmd.io/taskwarrior.svg)](https://x-cmd.com/install/taskwarrior)
 
 ## Install
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v3.5.0` (2026-08-16)
-- **Last commit**: 2026-09-14
+- **Last commit**: 2026-09-19
 - **Assets in release**: 1
 
 ## Popularity
 
-- **Stars**: 6,071 · **Forks**: 422 · **Open issues**: 2,978 · **Contributors**: 190
+- **Stars**: 6,076 · **Forks**: 421 · **Open issues**: 2,978 · **Contributors**: 190
 
 ## Totals (cumulative)
 
-- **Releases**: 22 · **Merged PRs**: 849 · **Open PRs**: 3 · **Closed issues**: 2544 · **Open issues**: 434 · **Commits**: 12050
+- **Releases**: 22 · **Merged PRs**: 850 · **Open PRs**: 2 · **Closed issues**: 2544 · **Open issues**: 434 · **Commits**: 12051
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 6 | 2 | 4 | 2 | 8 |
-| last60d | 2026-07-20 | 1 | 25 | 2 | 7 | 3 | 29 |
-| 90d | 2026-06-20 | 1 | 40 | 2 | 13 | 6 | 47 |
-| last180d | 2026-03-22 | 1 | 66 | 2 | 21 | 9 | 71 |
-| 360d | 2025-09-23 | 2 | 125 | 3 | 39 | 22 | 139 |
-| last720d | 2024-09-28 | 6 | 286 | 3 | 121 | 60 | 301 |
+| 30d | 2026-08-21 | 0 | 7 | 1 | 4 | 2 | 7 |
+| last60d | 2026-07-22 | 1 | 24 | 1 | 7 | 3 | 27 |
+| 90d | 2026-06-22 | 1 | 40 | 1 | 13 | 6 | 46 |
+| last180d | 2026-03-24 | 1 | 67 | 1 | 20 | 9 | 72 |
+| 360d | 2025-09-25 | 2 | 126 | 2 | 39 | 22 | 137 |
+| last720d | 2024-09-30 | 6 | 283 | 2 | 121 | 60 | 302 |
 
 ## Release assets
 
@@ -80,4 +80,4 @@ Install metadata for taskwarrior lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T02:47:44Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T02:58:26Z._

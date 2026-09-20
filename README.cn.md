@@ -4,7 +4,7 @@
 
 Taskwarrior - Command line Task Management
 
-![taskwarrior](https://repo.x-cmd.io/taskwarrior.svg?lang=zh)
+[![x-cmd/install — taskwarrior Code Quality Monitoring Repo Card](https://repo.x-cmd.io/taskwarrior.svg?lang=zh)](https://x-cmd.com/install/taskwarrior)
 
 ## 安装
 
@@ -43,27 +43,27 @@ x install taskwarrior
 ## 发布
 
 - **最新版本**: `v3.5.0` (2026-08-16)
-- **最近提交**: 2026-09-14
+- **最近提交**: 2026-09-19
 - **Release 含资产**: 1 个
 
 ## 流行度
 
-- **Star**: 6,071 · **Fork**: 422 · **开放 issue**: 2,978 · **贡献者**: 190
+- **Star**: 6,076 · **Fork**: 421 · **开放 issue**: 2,978 · **贡献者**: 190
 
 ## 累计统计
 
-- **发布数**: 22 · **已合并 PR**: 849 · **开放 PR**: 3 · **已关闭 issue**: 2544 · **开放 issue**: 434 · **提交数**: 12050
+- **发布数**: 22 · **已合并 PR**: 850 · **开放 PR**: 2 · **已关闭 issue**: 2544 · **开放 issue**: 434 · **提交数**: 12051
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 6 | 2 | 4 | 2 | 8 |
-| last60d | 2026-07-20 | 1 | 25 | 2 | 7 | 3 | 29 |
-| 90d | 2026-06-20 | 1 | 40 | 2 | 13 | 6 | 47 |
-| last180d | 2026-03-22 | 1 | 66 | 2 | 21 | 9 | 71 |
-| 360d | 2025-09-23 | 2 | 125 | 3 | 39 | 22 | 139 |
-| last720d | 2024-09-28 | 6 | 286 | 3 | 121 | 60 | 301 |
+| 30d | 2026-08-21 | 0 | 7 | 1 | 4 | 2 | 7 |
+| last60d | 2026-07-22 | 1 | 24 | 1 | 7 | 3 | 27 |
+| 90d | 2026-06-22 | 1 | 40 | 1 | 13 | 6 | 46 |
+| last180d | 2026-03-24 | 1 | 67 | 1 | 20 | 9 | 72 |
+| 360d | 2025-09-25 | 2 | 126 | 2 | 39 | 22 | 137 |
+| last720d | 2024-09-30 | 6 | 283 | 2 | 121 | 60 | 302 |
 
 ## Release 资产
 
@@ -80,4 +80,4 @@ taskwarrior 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/insta
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260918.yml` · 2026-09-18T02:47:45Z._
+_数据快照: `data/card/260920.yml` · 2026-09-20T02:58:27Z._
