@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,107 · **Forks**: 421 · **Open issues**: 2,981 · **Contributors**: 192
+- **Stars**: 6,107 · **Forks**: 422 · **Open issues**: 2,981 · **Contributors**: 192
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-08 | 0 | 9 | 0 | 3 | 1 | 11 |
-| last60d | 2026-08-09 | 1 | 24 | 1 | 8 | 2 | 28 |
-| 90d | 2026-07-10 | 1 | 42 | 1 | 10 | 4 | 52 |
-| last180d | 2026-04-11 | 1 | 67 | 1 | 21 | 8 | 73 |
-| 360d | 2025-10-13 | 2 | 126 | 2 | 42 | 22 | 143 |
-| last720d | 2024-10-18 | 6 | 281 | 2 | 122 | 56 | 303 |
+| 30d | 2026-09-09 | 0 | 8 | 0 | 3 | 1 | 11 |
+| last60d | 2026-08-10 | 1 | 24 | 1 | 8 | 2 | 28 |
+| 90d | 2026-07-11 | 1 | 42 | 1 | 10 | 4 | 52 |
+| last180d | 2026-04-12 | 1 | 67 | 1 | 21 | 8 | 73 |
+| 360d | 2025-10-14 | 2 | 126 | 2 | 42 | 22 | 143 |
+| last720d | 2024-10-19 | 6 | 280 | 2 | 122 | 56 | 303 |
 
 ## Release assets
 
@@ -80,4 +80,4 @@ Install metadata for taskwarrior lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261008.yml` · 2026-10-08T04:05:49Z._
+_Snapshot: `data/card/261009.yml` · 2026-10-09T04:10:30Z._
