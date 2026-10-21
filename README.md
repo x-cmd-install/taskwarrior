@@ -52,18 +52,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 22 · **Merged PRs**: 861 · **Open PRs**: 4 · **Closed issues**: 2550 · **Open issues**: 431 · **Commits**: 12064
+- **Releases**: 22 · **Merged PRs**: 862 · **Open PRs**: 3 · **Closed issues**: 2550 · **Open issues**: 431 · **Commits**: 12066
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-20 | 0 | 11 | 2 | 3 | 0 | 7 |
-| last60d | 2026-08-21 | 0 | 18 | 3 | 7 | 2 | 20 |
-| 90d | 2026-07-22 | 1 | 35 | 3 | 10 | 3 | 40 |
-| last180d | 2026-04-23 | 1 | 66 | 3 | 21 | 8 | 72 |
-| 360d | 2025-10-25 | 1 | 126 | 4 | 42 | 21 | 141 |
-| last720d | 2024-10-30 | 6 | 282 | 4 | 120 | 56 | 300 |
+| 30d | 2026-09-21 | 0 | 11 | 1 | 3 | 0 | 8 |
+| last60d | 2026-08-22 | 0 | 19 | 2 | 6 | 2 | 22 |
+| 90d | 2026-07-23 | 1 | 35 | 2 | 9 | 3 | 42 |
+| last180d | 2026-04-24 | 1 | 66 | 2 | 21 | 8 | 74 |
+| 360d | 2025-10-26 | 1 | 127 | 3 | 42 | 21 | 143 |
+| last720d | 2024-10-31 | 6 | 282 | 3 | 120 | 56 | 302 |
 
 ## Release assets
 
@@ -80,4 +80,4 @@ Install metadata for taskwarrior lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261020.yml` · 2026-10-20T03:03:29Z._
+_Snapshot: `data/card/261021.yml` · 2026-10-21T02:58:00Z._
