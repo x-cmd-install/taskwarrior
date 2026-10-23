@@ -48,28 +48,46 @@ x install taskwarrior
 
 ## 流行度
 
-- **Star**: 6,130 · **Fork**: 422 · **开放 issue**: 2,981 · **贡献者**: 192
+- **Star**: 6,131 · **Fork**: 423 · **开放 issue**: 2,981 · **贡献者**: 192
 
 ## 累计统计
 
-- **发布数**: 22 · **已合并 PR**: 862 · **开放 PR**: 3 · **已关闭 issue**: 2550 · **开放 issue**: 431 · **提交数**: 12066
+- **发布数**: 22 · **已合并 PR**: 862 · **开放 PR**: 4 · **已关闭 issue**: 2550 · **开放 issue**: 431 · **提交数**: 12066
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 11 | 1 | 3 | 0 | 8 |
-| last60d | 2026-08-23 | 0 | 19 | 2 | 6 | 2 | 22 |
-| 90d | 2026-07-24 | 1 | 35 | 2 | 9 | 3 | 42 |
-| last180d | 2026-04-25 | 1 | 66 | 2 | 21 | 8 | 74 |
-| 360d | 2025-10-27 | 1 | 127 | 3 | 42 | 20 | 143 |
-| last720d | 2024-11-01 | 6 | 282 | 3 | 120 | 56 | 300 |
+| 30d | 2026-09-23 | 0 | 9 | 2 | 2 | 0 | 8 |
+| last60d | 2026-08-24 | 0 | 17 | 3 | 6 | 2 | 22 |
+| 90d | 2026-07-25 | 1 | 34 | 3 | 9 | 3 | 42 |
+| last180d | 2026-04-26 | 1 | 66 | 3 | 21 | 8 | 74 |
+| 360d | 2025-10-28 | 1 | 127 | 4 | 42 | 20 | 143 |
+| last720d | 2024-11-02 | 6 | 281 | 4 | 120 | 56 | 300 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
 | [task-3.5.0.tar.gz](https://github.com/GothenburgBitFactory/taskwarrior/releases/download/v3.5.0/task-3.5.0.tar.gz) | 947.5 KiB | `native/unknown` |
+
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/taskwarrior) 上共有 **193** 个发行版报告此项目。**31** 个 ✅ 已是最新上游版本，**117** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `3.5.0` | ✅ latest |
+| Debian 14 | `3.5.0` | ✅ latest |
+| Debian 13 | `2.6.2` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `2.6.2` | ⚠️ outdated |
+| Arch | `3.5.0` | ✅ latest |
+| Homebrew | `3.5.0` | ✅ latest |
+| Fedora rawhide | `3.4.2` | ⚠️ outdated |
+| Nix unstable | `2.6.2` | 🪦 legacy |
+| Void | `3.5.0` | ✅ latest |
+| Alpine edge | `2.6.2` | 🪦 legacy |
+| openSUSE Tumbleweed | `3.4.2` | ⚠️ outdated |
 
 ## 改进这些数据
 
@@ -80,4 +98,4 @@ taskwarrior 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/insta
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261022.yml` · 2026-10-22T02:57:03Z._
+_数据快照: `data/card/261023.yml` · 2026-10-23T03:00:48Z._
