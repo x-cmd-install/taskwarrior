@@ -26,7 +26,7 @@ Total: **46,875** lines of code across **392** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **5.4 / 10**
+Overall score: **5.5 / 10**
 
 Lowest-scoring checks:
 
@@ -43,7 +43,7 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v3.5.0` (2026-08-16)
-- **Last commit**: 2026-10-20
+- **Last commit**: 2026-10-26
 - **Assets in release**: 1
 
 ## Popularity
@@ -52,18 +52,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 22 · **Merged PRs**: 862 · **Open PRs**: 4 · **Closed issues**: 2550 · **Open issues**: 431 · **Commits**: 12066
+- **Releases**: 22 · **Merged PRs**: 864 · **Open PRs**: 4 · **Closed issues**: 2550 · **Open issues**: 431 · **Commits**: 12068
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-26 | 0 | 8 | 2 | 1 | 0 | 8 |
-| last60d | 2026-08-27 | 0 | 17 | 2 | 6 | 1 | 21 |
-| 90d | 2026-07-28 | 1 | 32 | 3 | 8 | 3 | 38 |
-| last180d | 2026-04-29 | 1 | 65 | 3 | 21 | 8 | 74 |
-| 360d | 2025-10-31 | 1 | 127 | 4 | 42 | 20 | 143 |
-| last720d | 2024-11-05 | 6 | 277 | 4 | 118 | 56 | 298 |
+| 30d | 2026-09-27 | 0 | 10 | 2 | 1 | 0 | 10 |
+| last60d | 2026-08-28 | 0 | 18 | 2 | 6 | 1 | 23 |
+| 90d | 2026-07-29 | 1 | 34 | 3 | 8 | 3 | 40 |
+| last180d | 2026-04-30 | 1 | 67 | 3 | 21 | 8 | 76 |
+| 360d | 2025-11-01 | 1 | 129 | 4 | 42 | 20 | 145 |
+| last720d | 2024-11-06 | 6 | 278 | 4 | 118 | 56 | 297 |
 
 ## Release assets
 
@@ -98,4 +98,4 @@ Install metadata for taskwarrior lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261026.yml` · 2026-10-26T02:48:56Z._
+_Snapshot: `data/card/261027.yml` · 2026-10-27T03:22:32Z._
