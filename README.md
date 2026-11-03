@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,147 · **Forks**: 425 · **Open issues**: 2,983 · **Contributors**: 192
+- **Stars**: 6,148 · **Forks**: 425 · **Open issues**: 2,983 · **Contributors**: 192
 
 ## Totals (cumulative)
 
-- **Releases**: 22 · **Merged PRs**: 865 · **Open PRs**: 4 · **Closed issues**: 2550 · **Open issues**: 433 · **Commits**: 12069
+- **Releases**: 22 · **Merged PRs**: 866 · **Open PRs**: 4 · **Closed issues**: 2550 · **Open issues**: 433 · **Commits**: 12070
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-03 | 0 | 11 | 2 | 0 | 2 | 9 |
-| last60d | 2026-09-03 | 0 | 19 | 2 | 5 | 3 | 24 |
-| 90d | 2026-08-04 | 1 | 33 | 3 | 8 | 5 | 39 |
-| last180d | 2026-05-06 | 1 | 68 | 3 | 21 | 10 | 75 |
-| 360d | 2025-11-07 | 1 | 130 | 4 | 41 | 20 | 146 |
-| last720d | 2024-11-12 | 6 | 276 | 4 | 116 | 58 | 294 |
+| 30d | 2026-10-04 | 0 | 12 | 2 | 0 | 2 | 10 |
+| last60d | 2026-09-04 | 0 | 20 | 2 | 4 | 3 | 25 |
+| 90d | 2026-08-05 | 1 | 34 | 3 | 8 | 5 | 40 |
+| last180d | 2026-05-07 | 1 | 69 | 3 | 21 | 10 | 76 |
+| 360d | 2025-11-08 | 1 | 131 | 4 | 41 | 20 | 147 |
+| last720d | 2024-11-13 | 5 | 275 | 4 | 116 | 58 | 294 |
 
 ## Release assets
 
@@ -73,7 +73,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **193** distros on [repology.org](https://repology.org/project/taskwarrior). **32** are ✅ on the latest upstream release, **116** are ⚠️ on an older version.
+Reported by **193** distros on [repology.org](https://repology.org/project/taskwarrior). **30** are ✅ on the latest upstream release, **118** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -86,7 +86,7 @@ Reported by **193** distros on [repology.org](https://repology.org/project/taskw
 | Fedora rawhide | `3.4.2` | ⚠️ outdated |
 | Nix unstable | `2.6.2` | 🪦 legacy |
 | Void | `3.5.0` | ✅ latest |
-| Alpine edge | `3.5.0` | ✅ latest |
+| Alpine edge | `2.6.2` | 🪦 legacy |
 | openSUSE Tumbleweed | `3.4.2` | ⚠️ outdated |
 
 ## Improve this data
@@ -98,4 +98,4 @@ Install metadata for taskwarrior lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261102.yml` · 2026-11-02T03:57:14Z._
+_Snapshot: `data/card/261103.yml` · 2026-11-03T04:59:02Z._

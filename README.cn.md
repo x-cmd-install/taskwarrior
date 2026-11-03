@@ -48,22 +48,22 @@ x install taskwarrior
 
 ## 流行度
 
-- **Star**: 6,147 · **Fork**: 425 · **开放 issue**: 2,983 · **贡献者**: 192
+- **Star**: 6,148 · **Fork**: 425 · **开放 issue**: 2,983 · **贡献者**: 192
 
 ## 累计统计
 
-- **发布数**: 22 · **已合并 PR**: 865 · **开放 PR**: 4 · **已关闭 issue**: 2550 · **开放 issue**: 433 · **提交数**: 12069
+- **发布数**: 22 · **已合并 PR**: 866 · **开放 PR**: 4 · **已关闭 issue**: 2550 · **开放 issue**: 433 · **提交数**: 12070
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-03 | 0 | 11 | 2 | 0 | 2 | 9 |
-| last60d | 2026-09-03 | 0 | 19 | 2 | 5 | 3 | 24 |
-| 90d | 2026-08-04 | 1 | 33 | 3 | 8 | 5 | 39 |
-| last180d | 2026-05-06 | 1 | 68 | 3 | 21 | 10 | 75 |
-| 360d | 2025-11-07 | 1 | 130 | 4 | 41 | 20 | 146 |
-| last720d | 2024-11-12 | 6 | 276 | 4 | 116 | 58 | 294 |
+| 30d | 2026-10-04 | 0 | 12 | 2 | 0 | 2 | 10 |
+| last60d | 2026-09-04 | 0 | 20 | 2 | 4 | 3 | 25 |
+| 90d | 2026-08-05 | 1 | 34 | 3 | 8 | 5 | 40 |
+| last180d | 2026-05-07 | 1 | 69 | 3 | 21 | 10 | 76 |
+| 360d | 2025-11-08 | 1 | 131 | 4 | 41 | 20 | 147 |
+| last720d | 2024-11-13 | 5 | 275 | 4 | 116 | 58 | 294 |
 
 ## Release 资产
 
@@ -73,7 +73,7 @@ x install taskwarrior
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/taskwarrior) 上共有 **193** 个发行版报告此项目。**32** 个 ✅ 已是最新上游版本，**116** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/taskwarrior) 上共有 **193** 个发行版报告此项目。**30** 个 ✅ 已是最新上游版本，**118** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -86,7 +86,7 @@ x install taskwarrior
 | Fedora rawhide | `3.4.2` | ⚠️ outdated |
 | Nix unstable | `2.6.2` | 🪦 legacy |
 | Void | `3.5.0` | ✅ latest |
-| Alpine edge | `3.5.0` | ✅ latest |
+| Alpine edge | `2.6.2` | 🪦 legacy |
 | openSUSE Tumbleweed | `3.4.2` | ⚠️ outdated |
 
 ## 改进这些数据
@@ -98,4 +98,4 @@ taskwarrior 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/insta
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261102.yml` · 2026-11-02T03:57:14Z._
+_数据快照: `data/card/261103.yml` · 2026-11-03T04:59:03Z._
