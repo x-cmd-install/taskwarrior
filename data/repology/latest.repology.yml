@@ -1,14 +1,199 @@
-- repo: epel_7
+- repo: chimera
+  subrepo: user
+  srcname: taskwarrior
+  binname: taskwarrior-man
+  visiblename: taskwarrior-man
+  version: 3.4.2
+  origversion: 3.4.2-r0
+  status: outdated
+  summary: TODO list manager for the command line (manual pages)
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: taskwarrior
+  binname: taskwarrior-zshcomp
+  visiblename: taskwarrior-zshcomp
+  version: 3.4.2
+  origversion: 3.4.2-r0
+  status: outdated
+  summary: TODO list manager for the command line (zsh completions)
+  licenses:
+    - MIT
+- repo: chromebrew
+  srcname: taskwarrior
+  visiblename: taskwarrior
+  version: 3.5.0
+  origversion: null
+  status: newest
+  summary: Free and Open Source Software that manages your TODO list from the command line.
+  licenses:
+    - MIT
+- repo: crux_37
+  subrepo: opt
   srcname: task
   visiblename: task
-  version: 2.5.1
-  origversion: 2.5.1-1.el7
+  version: 3.4.1
+  origversion: null
   status: outdated
+  summary: Powerful task manager for the command-line
+  maintainers:
+    - jue@crux.nu
+- repo: crux_38
+  subrepo: opt
+  srcname: task
+  visiblename: task
+  version: 3.5.0
+  origversion: null
+  status: newest
+  summary: Powerful task manager for the command-line
+  maintainers:
+    - jue@crux.nu
+- repo: cygwin
+  srcname: task
+  binname: task
+  visiblename: task
+  version: 2.4.4
+  origversion: 2.4.4-1
+  status: outdated
+  summary: A command-line to do list manager
+  maintainers:
+    - mark.geisert@cygwin
+  categories:
+    - Utils
+- repo: fedora_42
+  subrepo: release
+  srcname: task
+  binnames:
+    - task
+  visiblename: task
+  version: 2.6.2
+  origversion: 2.6.2-7.fc41
+  status: legacy
   summary: Taskwarrior - a command-line TODO list manager
   licenses:
     - MIT
   categories:
-    - Applications/Productivity
+    - Unspecified
+- repo: fedora_42
+  subrepo: release
+  srcname: task2
+  binnames:
+    - task2
+  visiblename: task2
+  version: 2.6.2
+  origversion: 2.6.2-4.fc42
+  status: legacy
+  summary: Taskwarrior - a command-line TODO list manager
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: kali_rolling
+  subrepo: main
+  srcname: task
+  binnames:
+    - taskwarrior
+  visiblename: task
+  version: 3.5.0
+  origversion: 3.5.0+dfsg-3
+  status: newest
+  maintainers:
+    - team+tasktools@tracker.debian.org
+    - gordon@chronitis.net
+    - jspricke@debian.org
+    - sbadia@debian.org
+  categories:
+    - oldlibs
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: task
+  binnames:
+    - taskwarrior
+  visiblename: task
+  version: 2.6.2
+  origversion: 2.6.2+dfsg-1
+  status: outdated
+  maintainers:
+    - team+tasktools@tracker.debian.org
+    - gordon@chronitis.net
+    - sbadia@debian.org
+  categories:
+    - utils
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: task
+  binnames:
+    - taskwarrior
+  visiblename: task
+  version: 2.6.2
+  origversion: 2.6.2+dfsg-1
+  status: outdated
+  maintainers:
+    - team+tasktools@tracker.debian.org
+    - gordon@chronitis.net
+    - sbadia@debian.org
+  categories:
+    - oldlibs
+- repo: raspbian_stable
+  subrepo: main
+  srcname: task
+  binnames:
+    - taskwarrior
+  visiblename: task
+  version: 2.6.2
+  origversion: 2.6.2+dfsg-1
+  status: outdated
+  maintainers:
+    - team+tasktools@tracker.debian.org
+    - gordon@chronitis.net
+    - sbadia@debian.org
+  categories:
+    - oldlibs
+- repo: raspbian_testing
+  subrepo: main
+  srcname: task
+  binnames:
+    - taskwarrior
+  visiblename: task
+  version: 3.5.0
+  origversion: 3.5.0+dfsg-3
+  status: newest
+  maintainers:
+    - team+tasktools@tracker.debian.org
+    - gordon@chronitis.net
+    - jspricke@debian.org
+    - sbadia@debian.org
+  categories:
+    - oldlibs
+- repo: ravenports
+  srcname: taskwarrior
+  binname: taskwarrior
+  visiblename: taskwarrior
+  version: 3.4.2
+  origversion: null
+  status: outdated
+  summary: Feature-rich command-line todo list manager
+  maintainers:
+    - fallback-mnt-ravenports@repology
+  categories:
+    - rust
+- repo: rosa_2019_1
+  subrepo: contrib/release
+  srcname: task
+  binnames:
+    - task
+  visiblename: task
+  version: 2.5.1
+  origversion: 2.5.1-3
+  status: outdated
+  summary: A command-line to do list manager
+  maintainers:
+    - alexander@mezon.ru
+  licenses:
+    - MIT
+  categories:
+    - Office
 - repo: alpine_3_17
   subrepo: community
   srcname: task
@@ -191,6 +376,19 @@
     - ncopa@alpinelinux.org
   licenses:
     - MIT
+- repo: alpine_edge
+  subrepo: community
+  srcname: task3
+  binname: task3
+  visiblename: task3
+  version: 3.5.0
+  origversion: 3.5.0-r2
+  status: newest
+  summary: Command-line to-do list manager
+  maintainers:
+    - miyopan@e.email
+  licenses:
+    - MIT
 - repo: alpine_3_19
   subrepo: community
   srcname: task
@@ -295,19 +493,6 @@
     - ncopa@alpinelinux.org
   licenses:
     - MIT
-- repo: alpine_edge
-  subrepo: community
-  srcname: task
-  binname: task-fish-completion
-  visiblename: task-fish-completion
-  version: 2.6.2
-  origversion: 2.6.2-r2
-  status: legacy
-  summary: Fish completions for task
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
 - repo: alpine_3_21
   subrepo: community
   srcname: task
@@ -332,6 +517,19 @@
   summary: Fish completions for task
   maintainers:
     - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: community
+  srcname: task3
+  binname: task3-bash-completion
+  visiblename: task3-bash-completion
+  version: 3.5.0
+  origversion: 3.5.0-r2
+  status: newest
+  summary: Bash completions for task3
+  maintainers:
+    - miyopan@e.email
   licenses:
     - MIT
 - repo: alpine_3_21
@@ -438,19 +636,6 @@
     - ncopa@alpinelinux.org
   licenses:
     - MIT
-- repo: alpine_edge
-  subrepo: community
-  srcname: task
-  binname: task-zsh-completion
-  visiblename: task-zsh-completion
-  version: 2.6.2
-  origversion: 2.6.2-r2
-  status: legacy
-  summary: Zsh completions for task
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
 - repo: alpine_3_22
   subrepo: community
   srcname: task
@@ -475,6 +660,19 @@
   summary: Fish completions for task
   maintainers:
     - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: community
+  srcname: task3
+  binname: task3-doc
+  visiblename: task3-doc
+  version: 3.5.0
+  origversion: 3.5.0-r2
+  status: newest
+  summary: Command-line to-do list manager (documentation)
+  maintainers:
+    - miyopan@e.email
   licenses:
     - MIT
 - repo: alpine_3_22
@@ -581,19 +779,6 @@
     - ncopa@alpinelinux.org
   licenses:
     - MIT
-- repo: alpine_edge
-  subrepo: community
-  srcname: task3
-  binname: task3
-  visiblename: task3
-  version: 3.5.0
-  origversion: 3.5.0-r2
-  status: newest
-  summary: Command-line to-do list manager
-  maintainers:
-    - miyopan@e.email
-  licenses:
-    - MIT
 - repo: alpine_3_23
   subrepo: community
   srcname: task
@@ -618,6 +803,19 @@
   summary: Fish completions for task
   maintainers:
     - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: community
+  srcname: task3
+  binname: task3-fish-completion
+  visiblename: task3-fish-completion
+  version: 3.5.0
+  origversion: 3.5.0-r2
+  status: newest
+  summary: Fish completions for task3
+  maintainers:
+    - miyopan@e.email
   licenses:
     - MIT
 - repo: alpine_3_23
@@ -724,19 +922,6 @@
     - ncopa@alpinelinux.org
   licenses:
     - MIT
-- repo: alpine_edge
-  subrepo: community
-  srcname: task3
-  binname: task3-bash-completion
-  visiblename: task3-bash-completion
-  version: 3.5.0
-  origversion: 3.5.0-r2
-  status: newest
-  summary: Bash completions for task3
-  maintainers:
-    - miyopan@e.email
-  licenses:
-    - MIT
 - repo: alpine_3_24
   subrepo: community
   srcname: task
@@ -761,6 +946,19 @@
   summary: Fish completions for task
   maintainers:
     - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: community
+  srcname: task3
+  binname: task3-zsh-completion
+  visiblename: task3-zsh-completion
+  version: 3.5.0
+  origversion: 3.5.0-r2
+  status: newest
+  summary: Zsh completions for task3
+  maintainers:
+    - miyopan@e.email
   licenses:
     - MIT
 - repo: alpine_3_24
@@ -882,41 +1080,28 @@
     - MIT
 - repo: alpine_edge
   subrepo: community
-  srcname: task3
-  binname: task3-doc
-  visiblename: task3-doc
-  version: 3.5.0
-  origversion: 3.5.0-r2
-  status: newest
-  summary: Command-line to-do list manager (documentation)
+  srcname: task
+  binname: task-fish-completion
+  visiblename: task-fish-completion
+  version: 2.6.2
+  origversion: 2.6.2-r2
+  status: legacy
+  summary: Fish completions for task
   maintainers:
-    - miyopan@e.email
+    - ncopa@alpinelinux.org
   licenses:
     - MIT
 - repo: alpine_edge
   subrepo: community
-  srcname: task3
-  binname: task3-fish-completion
-  visiblename: task3-fish-completion
-  version: 3.5.0
-  origversion: 3.5.0-r2
-  status: newest
-  summary: Fish completions for task3
+  srcname: task
+  binname: task-zsh-completion
+  visiblename: task-zsh-completion
+  version: 2.6.2
+  origversion: 2.6.2-r2
+  status: legacy
+  summary: Zsh completions for task
   maintainers:
-    - miyopan@e.email
-  licenses:
-    - MIT
-- repo: alpine_edge
-  subrepo: community
-  srcname: task3
-  binname: task3-zsh-completion
-  visiblename: task3-zsh-completion
-  version: 3.5.0
-  origversion: 3.5.0-r2
-  status: newest
-  summary: Zsh completions for task3
-  maintainers:
-    - miyopan@e.email
+    - ncopa@alpinelinux.org
   licenses:
     - MIT
 - repo: alt_p11
@@ -1035,69 +1220,6 @@
   summary: TODO list manager for the command line (documentation)
   licenses:
     - MIT
-- repo: chimera
-  subrepo: user
-  srcname: taskwarrior
-  binname: taskwarrior-man
-  visiblename: taskwarrior-man
-  version: 3.4.2
-  origversion: 3.4.2-r0
-  status: outdated
-  summary: TODO list manager for the command line (manual pages)
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: user
-  srcname: taskwarrior
-  binname: taskwarrior-zshcomp
-  visiblename: taskwarrior-zshcomp
-  version: 3.4.2
-  origversion: 3.4.2-r0
-  status: outdated
-  summary: TODO list manager for the command line (zsh completions)
-  licenses:
-    - MIT
-- repo: chromebrew
-  srcname: taskwarrior
-  visiblename: taskwarrior
-  version: 3.5.0
-  origversion: null
-  status: newest
-  summary: Free and Open Source Software that manages your TODO list from the command line.
-  licenses:
-    - MIT
-- repo: crux_37
-  subrepo: opt
-  srcname: task
-  visiblename: task
-  version: 3.4.1
-  origversion: null
-  status: outdated
-  summary: Powerful task manager for the command-line
-  maintainers:
-    - jue@crux.nu
-- repo: crux_38
-  subrepo: opt
-  srcname: task
-  visiblename: task
-  version: 3.5.0
-  origversion: null
-  status: newest
-  summary: Powerful task manager for the command-line
-  maintainers:
-    - jue@crux.nu
-- repo: cygwin
-  srcname: task
-  binname: task
-  visiblename: task
-  version: 2.4.4
-  origversion: 2.4.4-1
-  status: outdated
-  summary: A command-line to do list manager
-  maintainers:
-    - mark.geisert@cygwin
-  categories:
-    - Utils
 - repo: debian_11
   subrepo: bullseye/main
   srcname: task
@@ -1245,19 +1367,17 @@
     - MIT
   categories:
     - Applications/Productivity
-- repo: nix_stable_25_11
-  srcname: taskwarrior2
-  visiblename: taskwarrior
-  version: 2.6.2
-  origversion: null
-  status: legacy
-  summary: Highly flexible command-line tool to manage TODO lists
-  maintainers:
-    - marco-oweber@gmx.de
-    - oxalicc@pm.me
-    - adrian@sadlocha.eu
+- repo: epel_7
+  srcname: task
+  visiblename: task
+  version: 2.5.1
+  origversion: 2.5.1-1.el7
+  status: outdated
+  summary: Taskwarrior - a command-line TODO list manager
   licenses:
     - MIT
+  categories:
+    - Applications/Productivity
 - repo: exherbo
   subrepo: heirecka
   srcname: app-misc/task
@@ -1401,34 +1521,6 @@
   categories:
     - Unspecified
 - repo: fedora_42
-  subrepo: release
-  srcname: task
-  binnames:
-    - task
-  visiblename: task
-  version: 2.6.2
-  origversion: 2.6.2-7.fc41
-  status: legacy
-  summary: Taskwarrior - a command-line TODO list manager
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_42
-  subrepo: release
-  srcname: task2
-  binnames:
-    - task2
-  visiblename: task2
-  version: 2.6.2
-  origversion: 2.6.2-4.fc42
-  status: legacy
-  summary: Taskwarrior - a command-line TODO list manager
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_42
   subrepo: updates
   srcname: task
   binnames:
@@ -1526,21 +1618,6 @@
     - MIT AND (Apache-2.0 OR MIT) AND BSD-3-Clause AND (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND Apache-2.0 AND ISC AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR ISC OR MIT) AND (Apache-2.0 OR MIT) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND BSD-3-Clause AND ISC AND ISC AND (Apache-2.0 OR ISC) AND ISC AND (Apache-2.0 OR ISC) AND OpenSSL AND MIT AND (MIT OR Apache-2.0) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND Unicode-3.0 AND (Unlicense OR MIT) AND Zlib
   categories:
     - Unspecified
-- repo: nix_stable_25_11
-  srcname: taskwarrior3
-  visiblename: taskwarrior
-  version: 3.4.2
-  origversion: null
-  status: outdated
-  summary: Highly flexible command-line tool to manage TODO lists
-  maintainers:
-    - marco-oweber@gmx.de
-    - oxalicc@pm.me
-    - mlaradji@pm.me
-    - me@doronbehar.com
-    - adrian@sadlocha.eu
-  licenses:
-    - MIT
 - repo: freebsd
   srcname: deskutils/taskwarrior
   binname: taskwarrior
@@ -1566,6 +1643,24 @@
     - MIT
   categories:
     - app-misc
+- repo: rosa_13
+  subrepo: contrib/release
+  srcname: taskwarrior
+  binnames:
+    - taskwarrior
+    - taskwarrior-debuginfo
+    - taskwarrior-debugsource
+  visiblename: taskwarrior
+  version: 3.4.2
+  origversion: 3.4.2-1
+  status: outdated
+  summary: A command-line to do list manager
+  maintainers:
+    - a.proklov@rosa.ru
+  licenses:
+    - MIT
+  categories:
+    - Office
 - repo: gentoo
   srcname: app-misc/task
   visiblename: app-misc/task
@@ -1616,22 +1711,6 @@
   origversion: null
   status: rolling
   summary: Feature-rich console based todo list manager
-- repo: kali_rolling
-  subrepo: main
-  srcname: task
-  binnames:
-    - taskwarrior
-  visiblename: task
-  version: 3.5.0
-  origversion: 3.5.0+dfsg-3
-  status: newest
-  maintainers:
-    - team+tasktools@tracker.debian.org
-    - gordon@chronitis.net
-    - jspricke@debian.org
-    - sbadia@debian.org
-  categories:
-    - oldlibs
 - repo: liguros_stable
   srcname: app-misc/task
   visiblename: app-misc/task
@@ -1659,18 +1738,6 @@
     - MIT
   categories:
     - app-misc
-- repo: nix_stable_26_05
-  srcname: taskwarrior2
-  visiblename: taskwarrior
-  version: 2.6.2
-  origversion: null
-  status: legacy
-  summary: Highly flexible command-line tool to manage TODO lists
-  maintainers:
-    - oxalicc@pm.me
-    - adrian@sadlocha.eu
-  licenses:
-    - MIT
 - repo: liguros_develop
   srcname: app-misc/task
   visiblename: app-misc/task
@@ -1754,9 +1821,9 @@
   srcname: task
   binname: task
   visiblename: task
-  version: 2.6.2
-  origversion: 2.6.2-2
-  status: outdated
+  version: 3.5.0
+  origversion: 3.5.0-2
+  status: newest
   summary: Taskwarrior, a command-line todo list manager
   licenses:
     - MIT
@@ -1765,9 +1832,9 @@
   srcname: task
   binname: task
   visiblename: task
-  version: 2.6.2
-  origversion: 2.6.2-2
-  status: outdated
+  version: 3.5.0
+  origversion: 3.5.0-2
+  status: newest
   summary: Taskwarrior, a command-line todo list manager
   licenses:
     - MIT
@@ -1871,6 +1938,61 @@
     - adrian@sadlocha.eu
   licenses:
     - MIT
+- repo: nix_stable_25_11
+  srcname: taskwarrior2
+  visiblename: taskwarrior
+  version: 2.6.2
+  origversion: null
+  status: legacy
+  summary: Highly flexible command-line tool to manage TODO lists
+  maintainers:
+    - marco-oweber@gmx.de
+    - oxalicc@pm.me
+    - adrian@sadlocha.eu
+  licenses:
+    - MIT
+- repo: nix_stable_25_11
+  srcname: taskwarrior3
+  visiblename: taskwarrior
+  version: 3.4.2
+  origversion: null
+  status: outdated
+  summary: Highly flexible command-line tool to manage TODO lists
+  maintainers:
+    - marco-oweber@gmx.de
+    - oxalicc@pm.me
+    - mlaradji@pm.me
+    - me@doronbehar.com
+    - adrian@sadlocha.eu
+  licenses:
+    - MIT
+- repo: nix_stable_26_05
+  srcname: taskwarrior2
+  visiblename: taskwarrior
+  version: 2.6.2
+  origversion: null
+  status: legacy
+  summary: Highly flexible command-line tool to manage TODO lists
+  maintainers:
+    - oxalicc@pm.me
+    - adrian@sadlocha.eu
+  licenses:
+    - MIT
+- repo: ubuntu_25_10
+  subrepo: questing/universe
+  srcname: task
+  binnames:
+    - taskwarrior
+  visiblename: task
+  version: 2.6.2
+  origversion: 2.6.2+dfsg-2
+  status: outdated
+  maintainers:
+    - team+tasktools@tracker.debian.org
+    - gordon@chronitis.net
+    - sbadia@debian.org
+  categories:
+    - universe/utils
 - repo: nix_stable_26_05
   srcname: taskwarrior3
   visiblename: taskwarrior
@@ -2080,7 +2202,7 @@
   categories:
     - oldlibs
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: task
   binnames:
     - taskwarrior
@@ -2095,7 +2217,7 @@
   categories:
     - oldlibs
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: task
   binnames:
     - taskwarrior
@@ -2190,95 +2312,6 @@
     - sbadia@debian.org
   categories:
     - utils
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: task
-  binnames:
-    - taskwarrior
-  visiblename: task
-  version: 2.6.2
-  origversion: 2.6.2+dfsg-1
-  status: outdated
-  maintainers:
-    - team+tasktools@tracker.debian.org
-    - gordon@chronitis.net
-    - sbadia@debian.org
-  categories:
-    - utils
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: task
-  binnames:
-    - taskwarrior
-  visiblename: task
-  version: 2.6.2
-  origversion: 2.6.2+dfsg-1
-  status: outdated
-  maintainers:
-    - team+tasktools@tracker.debian.org
-    - gordon@chronitis.net
-    - sbadia@debian.org
-  categories:
-    - oldlibs
-- repo: raspbian_stable
-  subrepo: main
-  srcname: task
-  binnames:
-    - taskwarrior
-  visiblename: task
-  version: 2.6.2
-  origversion: 2.6.2+dfsg-1
-  status: outdated
-  maintainers:
-    - team+tasktools@tracker.debian.org
-    - gordon@chronitis.net
-    - sbadia@debian.org
-  categories:
-    - oldlibs
-- repo: raspbian_testing
-  subrepo: main
-  srcname: task
-  binnames:
-    - taskwarrior
-  visiblename: task
-  version: 3.5.0
-  origversion: 3.5.0+dfsg-3
-  status: newest
-  maintainers:
-    - team+tasktools@tracker.debian.org
-    - gordon@chronitis.net
-    - jspricke@debian.org
-    - sbadia@debian.org
-  categories:
-    - oldlibs
-- repo: ravenports
-  srcname: taskwarrior
-  binname: taskwarrior
-  visiblename: taskwarrior
-  version: 3.4.2
-  origversion: null
-  status: outdated
-  summary: Feature-rich command-line todo list manager
-  maintainers:
-    - fallback-mnt-ravenports@repology
-  categories:
-    - rust
-- repo: rosa_2019_1
-  subrepo: contrib/release
-  srcname: task
-  binnames:
-    - task
-  visiblename: task
-  version: 2.5.1
-  origversion: 2.5.1-3
-  status: outdated
-  summary: A command-line to do list manager
-  maintainers:
-    - alexander@mezon.ru
-  licenses:
-    - MIT
-  categories:
-    - Office
 - repo: rosa_13
   subrepo: contrib/release
   srcname: task
@@ -2293,24 +2326,6 @@
   summary: A command-line to do list manager
   maintainers:
     - alexander@mezon.ru
-  licenses:
-    - MIT
-  categories:
-    - Office
-- repo: rosa_13
-  subrepo: contrib/release
-  srcname: taskwarrior
-  binnames:
-    - taskwarrior
-    - taskwarrior-debuginfo
-    - taskwarrior-debugsource
-  visiblename: taskwarrior
-  version: 3.4.2
-  origversion: 3.4.2-1
-  status: outdated
-  summary: A command-line to do list manager
-  maintainers:
-    - a.proklov@rosa.ru
   licenses:
     - MIT
   categories:
@@ -2498,14 +2513,14 @@
     - sbadia@debian.org
   categories:
     - universe/utils
-- repo: ubuntu_25_10
-  subrepo: questing/universe
+- repo: ubuntu_26_10
+  subrepo: stonking/universe
   srcname: task
   binnames:
     - taskwarrior
   visiblename: task
-  version: 2.6.2
-  origversion: 2.6.2+dfsg-2
+  version: 3.4.2
+  origversion: 3.4.2+dfsg-4
   status: outdated
   maintainers:
     - team+tasktools@tracker.debian.org
@@ -2513,8 +2528,8 @@
     - sbadia@debian.org
   categories:
     - universe/utils
-- repo: ubuntu_26_10
-  subrepo: stonking/universe
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
   srcname: task
   binnames:
     - taskwarrior
