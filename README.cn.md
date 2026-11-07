@@ -48,7 +48,7 @@ x install taskwarrior
 
 ## 流行度
 
-- **Star**: 6,156 · **Fork**: 425 · **开放 issue**: 2,983 · **贡献者**: 192
+- **Star**: 6,155 · **Fork**: 425 · **开放 issue**: 2,983 · **贡献者**: 192
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install taskwarrior
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 0 | 11 | 2 | 0 | 2 | 10 |
-| last60d | 2026-09-07 | 0 | 20 | 2 | 4 | 3 | 25 |
-| 90d | 2026-08-08 | 1 | 34 | 3 | 8 | 5 | 40 |
-| last180d | 2026-05-10 | 1 | 68 | 3 | 21 | 10 | 76 |
-| 360d | 2025-11-11 | 1 | 130 | 4 | 40 | 20 | 147 |
-| last720d | 2024-11-16 | 5 | 273 | 4 | 114 | 58 | 291 |
+| 30d | 2026-10-08 | 0 | 10 | 2 | 0 | 2 | 10 |
+| last60d | 2026-09-08 | 0 | 19 | 2 | 3 | 3 | 25 |
+| 90d | 2026-08-09 | 1 | 34 | 3 | 8 | 4 | 40 |
+| last180d | 2026-05-11 | 1 | 67 | 3 | 21 | 10 | 76 |
+| 360d | 2025-11-12 | 1 | 130 | 4 | 39 | 20 | 147 |
+| last720d | 2024-11-17 | 5 | 272 | 4 | 113 | 58 | 290 |
 
 ## Release 资产
 
@@ -73,7 +73,7 @@ x install taskwarrior
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/taskwarrior) 上共有 **193** 个发行版报告此项目。**30** 个 ✅ 已是最新上游版本，**118** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/taskwarrior) 上共有 **194** 个发行版报告此项目。**32** 个 ✅ 已是最新上游版本，**117** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -86,7 +86,7 @@ x install taskwarrior
 | Fedora rawhide | `3.4.2` | ⚠️ outdated |
 | Nix unstable | `2.6.2` | 🪦 legacy |
 | Void | `3.5.0` | ✅ latest |
-| Alpine edge | `2.6.2` | 🪦 legacy |
+| Alpine edge | `3.5.0` | ✅ latest |
 | openSUSE Tumbleweed | `3.4.2` | ⚠️ outdated |
 
 ## 改进这些数据
@@ -98,4 +98,4 @@ taskwarrior 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/insta
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261106.yml` · 2026-11-06T04:45:19Z._
+_数据快照: `data/card/261107.yml` · 2026-11-07T04:13:50Z._

@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,156 · **Forks**: 425 · **Open issues**: 2,983 · **Contributors**: 192
+- **Stars**: 6,155 · **Forks**: 425 · **Open issues**: 2,983 · **Contributors**: 192
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 0 | 11 | 2 | 0 | 2 | 10 |
-| last60d | 2026-09-07 | 0 | 20 | 2 | 4 | 3 | 25 |
-| 90d | 2026-08-08 | 1 | 34 | 3 | 8 | 5 | 40 |
-| last180d | 2026-05-10 | 1 | 68 | 3 | 21 | 10 | 76 |
-| 360d | 2025-11-11 | 1 | 130 | 4 | 40 | 20 | 147 |
-| last720d | 2024-11-16 | 5 | 273 | 4 | 114 | 58 | 291 |
+| 30d | 2026-10-08 | 0 | 10 | 2 | 0 | 2 | 10 |
+| last60d | 2026-09-08 | 0 | 19 | 2 | 3 | 3 | 25 |
+| 90d | 2026-08-09 | 1 | 34 | 3 | 8 | 4 | 40 |
+| last180d | 2026-05-11 | 1 | 67 | 3 | 21 | 10 | 76 |
+| 360d | 2025-11-12 | 1 | 130 | 4 | 39 | 20 | 147 |
+| last720d | 2024-11-17 | 5 | 272 | 4 | 113 | 58 | 290 |
 
 ## Release assets
 
@@ -73,7 +73,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **193** distros on [repology.org](https://repology.org/project/taskwarrior). **30** are ✅ on the latest upstream release, **118** are ⚠️ on an older version.
+Reported by **194** distros on [repology.org](https://repology.org/project/taskwarrior). **32** are ✅ on the latest upstream release, **117** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -86,7 +86,7 @@ Reported by **193** distros on [repology.org](https://repology.org/project/taskw
 | Fedora rawhide | `3.4.2` | ⚠️ outdated |
 | Nix unstable | `2.6.2` | 🪦 legacy |
 | Void | `3.5.0` | ✅ latest |
-| Alpine edge | `2.6.2` | 🪦 legacy |
+| Alpine edge | `3.5.0` | ✅ latest |
 | openSUSE Tumbleweed | `3.4.2` | ⚠️ outdated |
 
 ## Improve this data
@@ -98,4 +98,4 @@ Install metadata for taskwarrior lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261106.yml` · 2026-11-06T04:45:18Z._
+_Snapshot: `data/card/261107.yml` · 2026-11-07T04:13:49Z._
