@@ -1,959 +1,24 @@
-- repo: msys2_msys2
-  subrepo: x86_64
+- repo: cygwin
+  srcname: task
+  binname: task
+  visiblename: task
+  version: 2.4.4
+  origversion: 2.4.4-1
+  status: outdated
+  summary: A command-line to do list manager
+  maintainers:
+    - mark.geisert@cygwin
+  categories:
+    - Utils
+- repo: manjaro_testing
+  subrepo: extra
   srcname: task
   binname: task
   visiblename: task
   version: 3.5.0
   origversion: 3.5.0-2
   status: newest
-  summary: A command-line todo list manager
-  licenses:
-    - spdx:MIT
-- repo: pardus_21
-  subrepo: main
-  srcname: task
-  binnames:
-    - taskwarrior
-  visiblename: task
-  version: 2.5.3
-  origversion: 2.5.3+dfsg-4
-  status: outdated
-  maintainers:
-    - team+tasktools@tracker.debian.org
-    - gordon@chronitis.net
-    - sbadia@debian.org
-  categories:
-    - oldlibs
-- repo: alpine_3_18
-  subrepo: community
-  srcname: task
-  binname: task-bash-completion
-  visiblename: task-bash-completion
-  version: 2.6.2
-  origversion: 2.6.2-r1
-  status: outdated
-  summary: Bash completions for task
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_18
-  subrepo: community
-  srcname: task
-  binname: task-doc
-  visiblename: task-doc
-  version: 2.6.2
-  origversion: 2.6.2-r1
-  status: outdated
-  summary: command-line to-do list manager (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_18
-  subrepo: community
-  srcname: task
-  binname: task-fish-completion
-  visiblename: task-fish-completion
-  version: 2.6.2
-  origversion: 2.6.2-r1
-  status: outdated
-  summary: Fish completions for task
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: user
-  srcname: taskwarrior
-  binname: taskwarrior
-  visiblename: taskwarrior
-  version: 3.4.2
-  origversion: 3.4.2-r0
-  status: outdated
-  summary: TODO list manager for the command line
-  licenses:
-    - MIT
-- repo: alpine_3_17
-  subrepo: community
-  srcname: task
-  binname: task-fish-completion
-  visiblename: task-fish-completion
-  version: 2.6.2
-  origversion: 2.6.2-r1
-  status: outdated
-  summary: Fish completions for task
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_17
-  subrepo: community
-  srcname: task
-  binname: task-bash-completion
-  visiblename: task-bash-completion
-  version: 2.6.2
-  origversion: 2.6.2-r1
-  status: outdated
-  summary: Bash completions for task
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_17
-  subrepo: community
-  srcname: task
-  binname: task-zsh-completion
-  visiblename: task-zsh-completion
-  version: 2.6.2
-  origversion: 2.6.2-r1
-  status: outdated
-  summary: Zsh completions for task
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_17
-  subrepo: community
-  srcname: task
-  binname: task
-  visiblename: task
-  version: 2.6.2
-  origversion: 2.6.2-r1
-  status: outdated
-  summary: command-line to-do list manager
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_17
-  subrepo: community
-  srcname: task
-  binname: task-doc
-  visiblename: task-doc
-  version: 2.6.2
-  origversion: 2.6.2-r1
-  status: outdated
-  summary: command-line to-do list manager (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_18
-  subrepo: community
-  srcname: task
-  binname: task
-  visiblename: task
-  version: 2.6.2
-  origversion: 2.6.2-r1
-  status: outdated
-  summary: command-line to-do list manager
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_18
-  subrepo: community
-  srcname: task
-  binname: task-zsh-completion
-  visiblename: task-zsh-completion
-  version: 2.6.2
-  origversion: 2.6.2-r1
-  status: outdated
-  summary: Zsh completions for task
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_19
-  subrepo: community
-  srcname: task
-  binname: task
-  visiblename: task
-  version: 2.6.2
-  origversion: 2.6.2-r2
-  status: outdated
-  summary: command-line to-do list manager
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_19
-  subrepo: community
-  srcname: task
-  binname: task-bash-completion
-  visiblename: task-bash-completion
-  version: 2.6.2
-  origversion: 2.6.2-r2
-  status: outdated
-  summary: Bash completions for task
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_19
-  subrepo: community
-  srcname: task
-  binname: task-doc
-  visiblename: task-doc
-  version: 2.6.2
-  origversion: 2.6.2-r2
-  status: outdated
-  summary: command-line to-do list manager (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_19
-  subrepo: community
-  srcname: task
-  binname: task-fish-completion
-  visiblename: task-fish-completion
-  version: 2.6.2
-  origversion: 2.6.2-r2
-  status: outdated
-  summary: Fish completions for task
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_19
-  subrepo: community
-  srcname: task
-  binname: task-zsh-completion
-  visiblename: task-zsh-completion
-  version: 2.6.2
-  origversion: 2.6.2-r2
-  status: outdated
-  summary: Zsh completions for task
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: community
-  srcname: task
-  binname: task
-  visiblename: task
-  version: 2.6.2
-  origversion: 2.6.2-r2
-  status: outdated
-  summary: command-line to-do list manager
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: community
-  srcname: task
-  binname: task-bash-completion
-  visiblename: task-bash-completion
-  version: 2.6.2
-  origversion: 2.6.2-r2
-  status: outdated
-  summary: Bash completions for task
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: community
-  srcname: task
-  binname: task-doc
-  visiblename: task-doc
-  version: 2.6.2
-  origversion: 2.6.2-r2
-  status: outdated
-  summary: command-line to-do list manager (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: community
-  srcname: task
-  binname: task-fish-completion
-  visiblename: task-fish-completion
-  version: 2.6.2
-  origversion: 2.6.2-r2
-  status: outdated
-  summary: Fish completions for task
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: community
-  srcname: task
-  binname: task-zsh-completion
-  visiblename: task-zsh-completion
-  version: 2.6.2
-  origversion: 2.6.2-r2
-  status: outdated
-  summary: Zsh completions for task
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: task
-  binname: task
-  visiblename: task
-  version: 2.6.2
-  origversion: 2.6.2-r2
-  status: legacy
-  summary: command-line to-do list manager
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: task
-  binname: task-bash-completion
-  visiblename: task-bash-completion
-  version: 2.6.2
-  origversion: 2.6.2-r2
-  status: legacy
-  summary: Bash completions for task
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: task
-  binname: task-doc
-  visiblename: task-doc
-  version: 2.6.2
-  origversion: 2.6.2-r2
-  status: legacy
-  summary: command-line to-do list manager (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: task
-  binname: task-fish-completion
-  visiblename: task-fish-completion
-  version: 2.6.2
-  origversion: 2.6.2-r2
-  status: legacy
-  summary: Fish completions for task
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: task
-  binname: task-zsh-completion
-  visiblename: task-zsh-completion
-  version: 2.6.2
-  origversion: 2.6.2-r2
-  status: legacy
-  summary: Zsh completions for task
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: task3
-  binname: task3
-  visiblename: task3
-  version: 3.2.0
-  origversion: 3.2.0-r0
-  status: outdated
-  summary: Command-line to-do list manager
-  maintainers:
-    - miyopan@e.email
-  licenses:
-    - MIT
-- repo: epel_7
-  srcname: task
-  visiblename: task
-  version: 2.5.1
-  origversion: 2.5.1-1.el7
-  status: outdated
-  summary: Taskwarrior - a command-line TODO list manager
-  licenses:
-    - MIT
-  categories:
-    - Applications/Productivity
-- repo: alpine_3_21
-  subrepo: community
-  srcname: task3
-  binname: task3-bash-completion
-  visiblename: task3-bash-completion
-  version: 3.2.0
-  origversion: 3.2.0-r0
-  status: outdated
-  summary: Bash completions for task3
-  maintainers:
-    - miyopan@e.email
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: task3
-  binname: task3-doc
-  visiblename: task3-doc
-  version: 3.2.0
-  origversion: 3.2.0-r0
-  status: outdated
-  summary: Command-line to-do list manager (documentation)
-  maintainers:
-    - miyopan@e.email
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: task3
-  binname: task3-fish-completion
-  visiblename: task3-fish-completion
-  version: 3.2.0
-  origversion: 3.2.0-r0
-  status: outdated
-  summary: Fish completions for task3
-  maintainers:
-    - miyopan@e.email
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: task3
-  binname: task3-zsh-completion
-  visiblename: task3-zsh-completion
-  version: 3.2.0
-  origversion: 3.2.0-r0
-  status: outdated
-  summary: Zsh completions for task3
-  maintainers:
-    - miyopan@e.email
-  licenses:
-    - MIT
-- repo: alpine_3_22
-  subrepo: community
-  srcname: task
-  binname: task
-  visiblename: task
-  version: 2.6.2
-  origversion: 2.6.2-r2
-  status: legacy
-  summary: command-line to-do list manager
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_22
-  subrepo: community
-  srcname: task
-  binname: task-bash-completion
-  visiblename: task-bash-completion
-  version: 2.6.2
-  origversion: 2.6.2-r2
-  status: legacy
-  summary: Bash completions for task
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_22
-  subrepo: community
-  srcname: task
-  binname: task-doc
-  visiblename: task-doc
-  version: 2.6.2
-  origversion: 2.6.2-r2
-  status: legacy
-  summary: command-line to-do list manager (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_22
-  subrepo: community
-  srcname: task
-  binname: task-fish-completion
-  visiblename: task-fish-completion
-  version: 2.6.2
-  origversion: 2.6.2-r2
-  status: legacy
-  summary: Fish completions for task
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_22
-  subrepo: community
-  srcname: task
-  binname: task-zsh-completion
-  visiblename: task-zsh-completion
-  version: 2.6.2
-  origversion: 2.6.2-r2
-  status: legacy
-  summary: Zsh completions for task
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_22
-  subrepo: community
-  srcname: task3
-  binname: task3
-  visiblename: task3
-  version: 3.4.1
-  origversion: 3.4.1-r0
-  status: outdated
-  summary: Command-line to-do list manager
-  maintainers:
-    - miyopan@e.email
-  licenses:
-    - MIT
-- repo: alpine_3_22
-  subrepo: community
-  srcname: task3
-  binname: task3-bash-completion
-  visiblename: task3-bash-completion
-  version: 3.4.1
-  origversion: 3.4.1-r0
-  status: outdated
-  summary: Bash completions for task3
-  maintainers:
-    - miyopan@e.email
-  licenses:
-    - MIT
-- repo: alpine_3_22
-  subrepo: community
-  srcname: task3
-  binname: task3-doc
-  visiblename: task3-doc
-  version: 3.4.1
-  origversion: 3.4.1-r0
-  status: outdated
-  summary: Command-line to-do list manager (documentation)
-  maintainers:
-    - miyopan@e.email
-  licenses:
-    - MIT
-- repo: alpine_3_22
-  subrepo: community
-  srcname: task3
-  binname: task3-fish-completion
-  visiblename: task3-fish-completion
-  version: 3.4.1
-  origversion: 3.4.1-r0
-  status: outdated
-  summary: Fish completions for task3
-  maintainers:
-    - miyopan@e.email
-  licenses:
-    - MIT
-- repo: alpine_3_22
-  subrepo: community
-  srcname: task3
-  binname: task3-zsh-completion
-  visiblename: task3-zsh-completion
-  version: 3.4.1
-  origversion: 3.4.1-r0
-  status: outdated
-  summary: Zsh completions for task3
-  maintainers:
-    - miyopan@e.email
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: task
-  binname: task
-  visiblename: task
-  version: 2.6.2
-  origversion: 2.6.2-r2
-  status: legacy
-  summary: command-line to-do list manager
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_edge
-  subrepo: community
-  srcname: task
-  binname: task-doc
-  visiblename: task-doc
-  version: 2.6.2
-  origversion: 2.6.2-r2
-  status: legacy
-  summary: command-line to-do list manager (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: task
-  binname: task-bash-completion
-  visiblename: task-bash-completion
-  version: 2.6.2
-  origversion: 2.6.2-r2
-  status: legacy
-  summary: Bash completions for task
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: task
-  binname: task-doc
-  visiblename: task-doc
-  version: 2.6.2
-  origversion: 2.6.2-r2
-  status: legacy
-  summary: command-line to-do list manager (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: task
-  binname: task-fish-completion
-  visiblename: task-fish-completion
-  version: 2.6.2
-  origversion: 2.6.2-r2
-  status: legacy
-  summary: Fish completions for task
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: task
-  binname: task-zsh-completion
-  visiblename: task-zsh-completion
-  version: 2.6.2
-  origversion: 2.6.2-r2
-  status: legacy
-  summary: Zsh completions for task
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: task3
-  binname: task3
-  visiblename: task3
-  version: 3.4.2
-  origversion: 3.4.2-r0
-  status: outdated
-  summary: Command-line to-do list manager
-  maintainers:
-    - miyopan@e.email
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: task3
-  binname: task3-bash-completion
-  visiblename: task3-bash-completion
-  version: 3.4.2
-  origversion: 3.4.2-r0
-  status: outdated
-  summary: Bash completions for task3
-  maintainers:
-    - miyopan@e.email
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: task3
-  binname: task3-doc
-  visiblename: task3-doc
-  version: 3.4.2
-  origversion: 3.4.2-r0
-  status: outdated
-  summary: Command-line to-do list manager (documentation)
-  maintainers:
-    - miyopan@e.email
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: task3
-  binname: task3-fish-completion
-  visiblename: task3-fish-completion
-  version: 3.4.2
-  origversion: 3.4.2-r0
-  status: outdated
-  summary: Fish completions for task3
-  maintainers:
-    - miyopan@e.email
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: task3
-  binname: task3-zsh-completion
-  visiblename: task3-zsh-completion
-  version: 3.4.2
-  origversion: 3.4.2-r0
-  status: outdated
-  summary: Zsh completions for task3
-  maintainers:
-    - miyopan@e.email
-  licenses:
-    - MIT
-- repo: alpine_3_24
-  subrepo: community
-  srcname: task
-  binname: task
-  visiblename: task
-  version: 2.6.2
-  origversion: 2.6.2-r2
-  status: legacy
-  summary: command-line to-do list manager
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_edge
-  subrepo: community
-  srcname: task
-  binname: task-fish-completion
-  visiblename: task-fish-completion
-  version: 2.6.2
-  origversion: 2.6.2-r2
-  status: legacy
-  summary: Fish completions for task
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_24
-  subrepo: community
-  srcname: task
-  binname: task-bash-completion
-  visiblename: task-bash-completion
-  version: 2.6.2
-  origversion: 2.6.2-r2
-  status: legacy
-  summary: Bash completions for task
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_24
-  subrepo: community
-  srcname: task
-  binname: task-doc
-  visiblename: task-doc
-  version: 2.6.2
-  origversion: 2.6.2-r2
-  status: legacy
-  summary: command-line to-do list manager (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_24
-  subrepo: community
-  srcname: task
-  binname: task-fish-completion
-  visiblename: task-fish-completion
-  version: 2.6.2
-  origversion: 2.6.2-r2
-  status: legacy
-  summary: Fish completions for task
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_24
-  subrepo: community
-  srcname: task
-  binname: task-zsh-completion
-  visiblename: task-zsh-completion
-  version: 2.6.2
-  origversion: 2.6.2-r2
-  status: legacy
-  summary: Zsh completions for task
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_24
-  subrepo: community
-  srcname: task3
-  binname: task3
-  visiblename: task3
-  version: 3.4.2
-  origversion: 3.4.2-r1
-  status: outdated
-  summary: Command-line to-do list manager
-  maintainers:
-    - miyopan@e.email
-  licenses:
-    - MIT
-- repo: alpine_3_24
-  subrepo: community
-  srcname: task3
-  binname: task3-bash-completion
-  visiblename: task3-bash-completion
-  version: 3.4.2
-  origversion: 3.4.2-r1
-  status: outdated
-  summary: Bash completions for task3
-  maintainers:
-    - miyopan@e.email
-  licenses:
-    - MIT
-- repo: alpine_3_24
-  subrepo: community
-  srcname: task3
-  binname: task3-doc
-  visiblename: task3-doc
-  version: 3.4.2
-  origversion: 3.4.2-r1
-  status: outdated
-  summary: Command-line to-do list manager (documentation)
-  maintainers:
-    - miyopan@e.email
-  licenses:
-    - MIT
-- repo: alpine_3_24
-  subrepo: community
-  srcname: task3
-  binname: task3-fish-completion
-  visiblename: task3-fish-completion
-  version: 3.4.2
-  origversion: 3.4.2-r1
-  status: outdated
-  summary: Fish completions for task3
-  maintainers:
-    - miyopan@e.email
-  licenses:
-    - MIT
-- repo: alpine_3_24
-  subrepo: community
-  srcname: task3
-  binname: task3-zsh-completion
-  visiblename: task3-zsh-completion
-  version: 3.4.2
-  origversion: 3.4.2-r1
-  status: outdated
-  summary: Zsh completions for task3
-  maintainers:
-    - miyopan@e.email
-  licenses:
-    - MIT
-- repo: alpine_edge
-  subrepo: community
-  srcname: task
-  binname: task
-  visiblename: task
-  version: 2.6.2
-  origversion: 2.6.2-r2
-  status: legacy
-  summary: command-line to-do list manager
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_edge
-  subrepo: community
-  srcname: task
-  binname: task-bash-completion
-  visiblename: task-bash-completion
-  version: 2.6.2
-  origversion: 2.6.2-r2
-  status: legacy
-  summary: Bash completions for task
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_edge
-  subrepo: community
-  srcname: task
-  binname: task-zsh-completion
-  visiblename: task-zsh-completion
-  version: 2.6.2
-  origversion: 2.6.2-r2
-  status: legacy
-  summary: Zsh completions for task
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_edge
-  subrepo: community
-  srcname: task3
-  binname: task3
-  visiblename: task3
-  version: 3.5.0
-  origversion: 3.5.0-r2
-  status: newest
-  summary: Command-line to-do list manager
-  maintainers:
-    - miyopan@e.email
-  licenses:
-    - MIT
-- repo: alpine_edge
-  subrepo: community
-  srcname: task3
-  binname: task3-bash-completion
-  visiblename: task3-bash-completion
-  version: 3.5.0
-  origversion: 3.5.0-r2
-  status: newest
-  summary: Bash completions for task3
-  maintainers:
-    - miyopan@e.email
-  licenses:
-    - MIT
-- repo: alpine_edge
-  subrepo: community
-  srcname: task3
-  binname: task3-doc
-  visiblename: task3-doc
-  version: 3.5.0
-  origversion: 3.5.0-r2
-  status: newest
-  summary: Command-line to-do list manager (documentation)
-  maintainers:
-    - miyopan@e.email
-  licenses:
-    - MIT
-- repo: alpine_edge
-  subrepo: community
-  srcname: task3
-  binname: task3-fish-completion
-  visiblename: task3-fish-completion
-  version: 3.5.0
-  origversion: 3.5.0-r2
-  status: newest
-  summary: Fish completions for task3
-  maintainers:
-    - miyopan@e.email
-  licenses:
-    - MIT
-- repo: alpine_edge
-  subrepo: community
-  srcname: task3
-  binname: task3-zsh-completion
-  visiblename: task3-zsh-completion
-  version: 3.5.0
-  origversion: 3.5.0-r2
-  status: newest
-  summary: Zsh completions for task3
-  maintainers:
-    - miyopan@e.email
+  summary: Taskwarrior, a command-line todo list manager
   licenses:
     - MIT
 - repo: manjaro_unstable
@@ -965,6 +30,950 @@
   origversion: 3.5.0-2
   status: newest
   summary: Taskwarrior, a command-line todo list manager
+  licenses:
+    - MIT
+- repo: alpine_3_17
+  subrepo: community
+  srcname: task
+  binname: task-fish-completion
+  visiblename: task-fish-completion
+  version: 2.6.2
+  origversion: 2.6.2-r1
+  status: outdated
+  summary: Fish completions for task
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_17
+  subrepo: community
+  srcname: task
+  binname: task-bash-completion
+  visiblename: task-bash-completion
+  version: 2.6.2
+  origversion: 2.6.2-r1
+  status: outdated
+  summary: Bash completions for task
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_17
+  subrepo: community
+  srcname: task
+  binname: task-zsh-completion
+  visiblename: task-zsh-completion
+  version: 2.6.2
+  origversion: 2.6.2-r1
+  status: outdated
+  summary: Zsh completions for task
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_17
+  subrepo: community
+  srcname: task
+  binname: task
+  visiblename: task
+  version: 2.6.2
+  origversion: 2.6.2-r1
+  status: outdated
+  summary: command-line to-do list manager
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_17
+  subrepo: community
+  srcname: task
+  binname: task-doc
+  visiblename: task-doc
+  version: 2.6.2
+  origversion: 2.6.2-r1
+  status: outdated
+  summary: command-line to-do list manager (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_18
+  subrepo: community
+  srcname: task
+  binname: task
+  visiblename: task
+  version: 2.6.2
+  origversion: 2.6.2-r1
+  status: outdated
+  summary: command-line to-do list manager
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_18
+  subrepo: community
+  srcname: task
+  binname: task-bash-completion
+  visiblename: task-bash-completion
+  version: 2.6.2
+  origversion: 2.6.2-r1
+  status: outdated
+  summary: Bash completions for task
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: spack
+  srcname: task
+  visiblename: task
+  version: 3.4.2
+  origversion: null
+  status: outdated
+  maintainers:
+    - fallback-mnt-spack@repology
+  licenses:
+    - MIT
+- repo: alpine_3_18
+  subrepo: community
+  srcname: task
+  binname: task-doc
+  visiblename: task-doc
+  version: 2.6.2
+  origversion: 2.6.2-r1
+  status: outdated
+  summary: command-line to-do list manager (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_18
+  subrepo: community
+  srcname: task
+  binname: task-fish-completion
+  visiblename: task-fish-completion
+  version: 2.6.2
+  origversion: 2.6.2-r1
+  status: outdated
+  summary: Fish completions for task
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_18
+  subrepo: community
+  srcname: task
+  binname: task-zsh-completion
+  visiblename: task-zsh-completion
+  version: 2.6.2
+  origversion: 2.6.2-r1
+  status: outdated
+  summary: Zsh completions for task
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_19
+  subrepo: community
+  srcname: task
+  binname: task
+  visiblename: task
+  version: 2.6.2
+  origversion: 2.6.2-r2
+  status: outdated
+  summary: command-line to-do list manager
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_19
+  subrepo: community
+  srcname: task
+  binname: task-bash-completion
+  visiblename: task-bash-completion
+  version: 2.6.2
+  origversion: 2.6.2-r2
+  status: outdated
+  summary: Bash completions for task
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_19
+  subrepo: community
+  srcname: task
+  binname: task-doc
+  visiblename: task-doc
+  version: 2.6.2
+  origversion: 2.6.2-r2
+  status: outdated
+  summary: command-line to-do list manager (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_19
+  subrepo: community
+  srcname: task
+  binname: task-fish-completion
+  visiblename: task-fish-completion
+  version: 2.6.2
+  origversion: 2.6.2-r2
+  status: outdated
+  summary: Fish completions for task
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_19
+  subrepo: community
+  srcname: task
+  binname: task-zsh-completion
+  visiblename: task-zsh-completion
+  version: 2.6.2
+  origversion: 2.6.2-r2
+  status: outdated
+  summary: Zsh completions for task
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: msys2_msys2
+  subrepo: x86_64
+  srcname: task
+  binname: task
+  visiblename: task
+  version: 3.5.0
+  origversion: 3.5.0-2
+  status: newest
+  summary: A command-line todo list manager
+  licenses:
+    - spdx:MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: task
+  binname: task
+  visiblename: task
+  version: 2.6.2
+  origversion: 2.6.2-r2
+  status: outdated
+  summary: command-line to-do list manager
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: task
+  binname: task-bash-completion
+  visiblename: task-bash-completion
+  version: 2.6.2
+  origversion: 2.6.2-r2
+  status: outdated
+  summary: Bash completions for task
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: task
+  binname: task-doc
+  visiblename: task-doc
+  version: 2.6.2
+  origversion: 2.6.2-r2
+  status: outdated
+  summary: command-line to-do list manager (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: task
+  binname: task-fish-completion
+  visiblename: task-fish-completion
+  version: 2.6.2
+  origversion: 2.6.2-r2
+  status: outdated
+  summary: Fish completions for task
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: task
+  binname: task-zsh-completion
+  visiblename: task-zsh-completion
+  version: 2.6.2
+  origversion: 2.6.2-r2
+  status: outdated
+  summary: Zsh completions for task
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: task
+  binname: task
+  visiblename: task
+  version: 2.6.2
+  origversion: 2.6.2-r2
+  status: legacy
+  summary: command-line to-do list manager
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: task
+  binname: task-bash-completion
+  visiblename: task-bash-completion
+  version: 2.6.2
+  origversion: 2.6.2-r2
+  status: legacy
+  summary: Bash completions for task
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: task
+  binname: task-doc
+  visiblename: task-doc
+  version: 2.6.2
+  origversion: 2.6.2-r2
+  status: legacy
+  summary: command-line to-do list manager (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: task
+  binname: task-fish-completion
+  visiblename: task-fish-completion
+  version: 2.6.2
+  origversion: 2.6.2-r2
+  status: legacy
+  summary: Fish completions for task
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: task
+  binname: task-zsh-completion
+  visiblename: task-zsh-completion
+  version: 2.6.2
+  origversion: 2.6.2-r2
+  status: legacy
+  summary: Zsh completions for task
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: task3
+  binname: task3
+  visiblename: task3
+  version: 3.2.0
+  origversion: 3.2.0-r0
+  status: outdated
+  summary: Command-line to-do list manager
+  maintainers:
+    - miyopan@e.email
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: task3
+  binname: task3-bash-completion
+  visiblename: task3-bash-completion
+  version: 3.2.0
+  origversion: 3.2.0-r0
+  status: outdated
+  summary: Bash completions for task3
+  maintainers:
+    - miyopan@e.email
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: task3
+  binname: task3-doc
+  visiblename: task3-doc
+  version: 3.2.0
+  origversion: 3.2.0-r0
+  status: outdated
+  summary: Command-line to-do list manager (documentation)
+  maintainers:
+    - miyopan@e.email
+  licenses:
+    - MIT
+- repo: t2
+  srcname: task
+  visiblename: task
+  version: 3.5.0
+  origversion: null
+  status: newest
+  summary: Command-line to-do list manager
+  maintainers:
+    - rene@exactco.de
+  licenses:
+    - MIT
+  categories:
+    - extra/base
+- repo: alpine_3_21
+  subrepo: community
+  srcname: task3
+  binname: task3-fish-completion
+  visiblename: task3-fish-completion
+  version: 3.2.0
+  origversion: 3.2.0-r0
+  status: outdated
+  summary: Fish completions for task3
+  maintainers:
+    - miyopan@e.email
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: task3
+  binname: task3-zsh-completion
+  visiblename: task3-zsh-completion
+  version: 3.2.0
+  origversion: 3.2.0-r0
+  status: outdated
+  summary: Zsh completions for task3
+  maintainers:
+    - miyopan@e.email
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: task
+  binname: task
+  visiblename: task
+  version: 2.6.2
+  origversion: 2.6.2-r2
+  status: legacy
+  summary: command-line to-do list manager
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: task
+  binname: task-bash-completion
+  visiblename: task-bash-completion
+  version: 2.6.2
+  origversion: 2.6.2-r2
+  status: legacy
+  summary: Bash completions for task
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: task
+  binname: task-doc
+  visiblename: task-doc
+  version: 2.6.2
+  origversion: 2.6.2-r2
+  status: legacy
+  summary: command-line to-do list manager (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: task
+  binname: task-fish-completion
+  visiblename: task-fish-completion
+  version: 2.6.2
+  origversion: 2.6.2-r2
+  status: legacy
+  summary: Fish completions for task
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: task
+  binname: task-zsh-completion
+  visiblename: task-zsh-completion
+  version: 2.6.2
+  origversion: 2.6.2-r2
+  status: legacy
+  summary: Zsh completions for task
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: task3
+  binname: task3
+  visiblename: task3
+  version: 3.4.1
+  origversion: 3.4.1-r0
+  status: outdated
+  summary: Command-line to-do list manager
+  maintainers:
+    - miyopan@e.email
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: community
+  srcname: task3
+  binname: task3-doc
+  visiblename: task3-doc
+  version: 3.5.0
+  origversion: 3.5.0-r2
+  status: newest
+  summary: Command-line to-do list manager (documentation)
+  maintainers:
+    - miyopan@e.email
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: task3
+  binname: task3-bash-completion
+  visiblename: task3-bash-completion
+  version: 3.4.1
+  origversion: 3.4.1-r0
+  status: outdated
+  summary: Bash completions for task3
+  maintainers:
+    - miyopan@e.email
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: task3
+  binname: task3-doc
+  visiblename: task3-doc
+  version: 3.4.1
+  origversion: 3.4.1-r0
+  status: outdated
+  summary: Command-line to-do list manager (documentation)
+  maintainers:
+    - miyopan@e.email
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: task3
+  binname: task3-fish-completion
+  visiblename: task3-fish-completion
+  version: 3.4.1
+  origversion: 3.4.1-r0
+  status: outdated
+  summary: Fish completions for task3
+  maintainers:
+    - miyopan@e.email
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: task3
+  binname: task3-zsh-completion
+  visiblename: task3-zsh-completion
+  version: 3.4.1
+  origversion: 3.4.1-r0
+  status: outdated
+  summary: Zsh completions for task3
+  maintainers:
+    - miyopan@e.email
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: task
+  binname: task
+  visiblename: task
+  version: 2.6.2
+  origversion: 2.6.2-r2
+  status: legacy
+  summary: command-line to-do list manager
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: task
+  binname: task-bash-completion
+  visiblename: task-bash-completion
+  version: 2.6.2
+  origversion: 2.6.2-r2
+  status: legacy
+  summary: Bash completions for task
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: task
+  binname: task-doc
+  visiblename: task-doc
+  version: 2.6.2
+  origversion: 2.6.2-r2
+  status: legacy
+  summary: command-line to-do list manager (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: task
+  binname: task-fish-completion
+  visiblename: task-fish-completion
+  version: 2.6.2
+  origversion: 2.6.2-r2
+  status: legacy
+  summary: Fish completions for task
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: task
+  binname: task-zsh-completion
+  visiblename: task-zsh-completion
+  version: 2.6.2
+  origversion: 2.6.2-r2
+  status: legacy
+  summary: Zsh completions for task
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: task3
+  binname: task3
+  visiblename: task3
+  version: 3.4.2
+  origversion: 3.4.2-r0
+  status: outdated
+  summary: Command-line to-do list manager
+  maintainers:
+    - miyopan@e.email
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: community
+  srcname: task3
+  binname: task3-fish-completion
+  visiblename: task3-fish-completion
+  version: 3.5.0
+  origversion: 3.5.0-r2
+  status: newest
+  summary: Fish completions for task3
+  maintainers:
+    - miyopan@e.email
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: task3
+  binname: task3-bash-completion
+  visiblename: task3-bash-completion
+  version: 3.4.2
+  origversion: 3.4.2-r0
+  status: outdated
+  summary: Bash completions for task3
+  maintainers:
+    - miyopan@e.email
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: task3
+  binname: task3-doc
+  visiblename: task3-doc
+  version: 3.4.2
+  origversion: 3.4.2-r0
+  status: outdated
+  summary: Command-line to-do list manager (documentation)
+  maintainers:
+    - miyopan@e.email
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: task3
+  binname: task3-fish-completion
+  visiblename: task3-fish-completion
+  version: 3.4.2
+  origversion: 3.4.2-r0
+  status: outdated
+  summary: Fish completions for task3
+  maintainers:
+    - miyopan@e.email
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: task3
+  binname: task3-zsh-completion
+  visiblename: task3-zsh-completion
+  version: 3.4.2
+  origversion: 3.4.2-r0
+  status: outdated
+  summary: Zsh completions for task3
+  maintainers:
+    - miyopan@e.email
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: task
+  binname: task
+  visiblename: task
+  version: 2.6.2
+  origversion: 2.6.2-r2
+  status: legacy
+  summary: command-line to-do list manager
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: task
+  binname: task-bash-completion
+  visiblename: task-bash-completion
+  version: 2.6.2
+  origversion: 2.6.2-r2
+  status: legacy
+  summary: Bash completions for task
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: task
+  binname: task-doc
+  visiblename: task-doc
+  version: 2.6.2
+  origversion: 2.6.2-r2
+  status: legacy
+  summary: command-line to-do list manager (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: task
+  binname: task-fish-completion
+  visiblename: task-fish-completion
+  version: 2.6.2
+  origversion: 2.6.2-r2
+  status: legacy
+  summary: Fish completions for task
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: task
+  binname: task-zsh-completion
+  visiblename: task-zsh-completion
+  version: 2.6.2
+  origversion: 2.6.2-r2
+  status: legacy
+  summary: Zsh completions for task
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: task3
+  binname: task3
+  visiblename: task3
+  version: 3.4.2
+  origversion: 3.4.2-r1
+  status: outdated
+  summary: Command-line to-do list manager
+  maintainers:
+    - miyopan@e.email
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: community
+  srcname: task3
+  binname: task3-zsh-completion
+  visiblename: task3-zsh-completion
+  version: 3.5.0
+  origversion: 3.5.0-r2
+  status: newest
+  summary: Zsh completions for task3
+  maintainers:
+    - miyopan@e.email
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: task3
+  binname: task3-bash-completion
+  visiblename: task3-bash-completion
+  version: 3.4.2
+  origversion: 3.4.2-r1
+  status: outdated
+  summary: Bash completions for task3
+  maintainers:
+    - miyopan@e.email
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: task3
+  binname: task3-doc
+  visiblename: task3-doc
+  version: 3.4.2
+  origversion: 3.4.2-r1
+  status: outdated
+  summary: Command-line to-do list manager (documentation)
+  maintainers:
+    - miyopan@e.email
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: task3
+  binname: task3-fish-completion
+  visiblename: task3-fish-completion
+  version: 3.4.2
+  origversion: 3.4.2-r1
+  status: outdated
+  summary: Fish completions for task3
+  maintainers:
+    - miyopan@e.email
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: task3
+  binname: task3-zsh-completion
+  visiblename: task3-zsh-completion
+  version: 3.4.2
+  origversion: 3.4.2-r1
+  status: outdated
+  summary: Zsh completions for task3
+  maintainers:
+    - miyopan@e.email
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: community
+  srcname: task
+  binname: task
+  visiblename: task
+  version: 2.6.2
+  origversion: 2.6.2-r2
+  status: legacy
+  summary: command-line to-do list manager
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: community
+  srcname: task
+  binname: task-bash-completion
+  visiblename: task-bash-completion
+  version: 2.6.2
+  origversion: 2.6.2-r2
+  status: legacy
+  summary: Bash completions for task
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: community
+  srcname: task
+  binname: task-doc
+  visiblename: task-doc
+  version: 2.6.2
+  origversion: 2.6.2-r2
+  status: legacy
+  summary: command-line to-do list manager (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: community
+  srcname: task
+  binname: task-fish-completion
+  visiblename: task-fish-completion
+  version: 2.6.2
+  origversion: 2.6.2-r2
+  status: legacy
+  summary: Fish completions for task
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: community
+  srcname: task
+  binname: task-zsh-completion
+  visiblename: task-zsh-completion
+  version: 2.6.2
+  origversion: 2.6.2-r2
+  status: legacy
+  summary: Zsh completions for task
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: community
+  srcname: task3
+  binname: task3
+  visiblename: task3
+  version: 3.5.0
+  origversion: 3.5.0-r2
+  status: newest
+  summary: Command-line to-do list manager
+  maintainers:
+    - miyopan@e.email
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: community
+  srcname: task3
+  binname: task3-bash-completion
+  visiblename: task3-bash-completion
+  version: 3.5.0
+  origversion: 3.5.0-r2
+  status: newest
+  summary: Bash completions for task3
+  maintainers:
+    - miyopan@e.email
   licenses:
     - MIT
 - repo: alt_p11
@@ -1064,6 +1073,17 @@
 - repo: chimera
   subrepo: user
   srcname: taskwarrior
+  binname: taskwarrior
+  visiblename: taskwarrior
+  version: 3.4.2
+  origversion: 3.4.2-r0
+  status: outdated
+  summary: TODO list manager for the command line
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: taskwarrior
   binname: taskwarrior-doc
   visiblename: taskwarrior-doc
   version: 3.4.2
@@ -1123,18 +1143,6 @@
   summary: Powerful task manager for the command-line
   maintainers:
     - jue@crux.nu
-- repo: cygwin
-  srcname: task
-  binname: task
-  visiblename: task
-  version: 2.4.4
-  origversion: 2.4.4-1
-  status: outdated
-  summary: A command-line to do list manager
-  maintainers:
-    - mark.geisert@cygwin
-  categories:
-    - Utils
 - repo: debian_11
   subrepo: bullseye/main
   srcname: task
@@ -1271,13 +1279,13 @@
     - sbadia@debian.org
   categories:
     - oldlibs
-- repo: epel_6
+- repo: epel_7
   srcname: task
   visiblename: task
-  version: 2.3.0
-  origversion: 2.3.0-1.el6
+  version: 2.5.1
+  origversion: 2.5.1-1.el7
   status: outdated
-  summary: A command-line to do list manager
+  summary: Taskwarrior - a command-line TODO list manager
   licenses:
     - MIT
   categories:
@@ -1351,22 +1359,6 @@
   categories:
     - Unspecified
 - repo: fedora_40
-  subrepo: release
-  srcname: task
-  binnames:
-    - task
-    - task-debuginfo
-    - task-debugsource
-  visiblename: task
-  version: 2.6.2
-  origversion: 2.6.2-6.fc40
-  status: outdated
-  summary: Taskwarrior - a command-line TODO list manager
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_40
   subrepo: updates
   srcname: task2
   binnames:
@@ -1376,6 +1368,22 @@
   visiblename: task2
   version: 2.6.2
   origversion: 2.6.2-2.fc40
+  status: outdated
+  summary: Taskwarrior - a command-line TODO list manager
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_40
+  subrepo: release
+  srcname: task
+  binnames:
+    - task
+    - task-debuginfo
+    - task-debugsource
+  visiblename: task
+  version: 2.6.2
+  origversion: 2.6.2-6.fc40
   status: outdated
   summary: Taskwarrior - a command-line TODO list manager
   licenses:
@@ -1410,18 +1418,6 @@
     - MIT
   categories:
     - Unspecified
-- repo: nix_stable_25_05
-  srcname: taskwarrior2
-  visiblename: taskwarrior
-  version: 2.6.2
-  origversion: null
-  status: legacy
-  summary: Highly flexible command-line tool to manage TODO lists
-  maintainers:
-    - marco-oweber@gmx.de
-    - oxalicc@pm.me
-  licenses:
-    - MIT
 - repo: fedora_41
   subrepo: updates
   srcname: task
@@ -1667,18 +1663,6 @@
     - MIT
   categories:
     - app-misc
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: taskwarrior
-  visiblename: taskwarrior
-  version: 2.6.2
-  origversion: 2.6.2-bp156.2.10
-  status: outdated
-  summary: Command-line todo list manager
-  licenses:
-    - MIT
-  categories:
-    - Productivity/Office/Organizers
 - repo: liguros_develop
   srcname: app-misc/task
   visiblename: app-misc/task
@@ -1781,17 +1765,6 @@
   summary: Taskwarrior, a command-line todo list manager
   licenses:
     - MIT
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: task
-  binname: task
-  visiblename: task
-  version: 3.5.0
-  origversion: 3.5.0-2
-  status: newest
-  summary: Taskwarrior, a command-line todo list manager
-  licenses:
-    - MIT
 - repo: nix_stable_24_05
   srcname: taskwarrior
   visiblename: taskwarrior
@@ -1841,6 +1814,18 @@
     - oxalicc@pm.me
     - mlaradji@pm.me
     - me@doronbehar.com
+  licenses:
+    - MIT
+- repo: nix_stable_25_05
+  srcname: taskwarrior2
+  visiblename: taskwarrior
+  version: 2.6.2
+  origversion: null
+  status: legacy
+  summary: Highly flexible command-line tool to manage TODO lists
+  maintainers:
+    - marco-oweber@gmx.de
+    - oxalicc@pm.me
   licenses:
     - MIT
 - repo: nix_stable_25_05
@@ -2018,6 +2003,18 @@
     - MIT
   categories:
     - Productivity/Office/Organizers
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: taskwarrior
+  visiblename: taskwarrior
+  version: 2.6.2
+  origversion: 2.6.2-bp156.2.10
+  status: outdated
+  summary: Command-line todo list manager
+  licenses:
+    - MIT
+  categories:
+    - Productivity/Office/Organizers
 - repo: opensuse_tumbleweed
   subrepo: src-oss
   srcname: taskwarrior
@@ -2079,8 +2076,23 @@
   summary: Taskwarrior, a command-line todo list manager
   licenses:
     - MIT
+- repo: pardus_21
+  subrepo: main
+  srcname: task
+  binnames:
+    - taskwarrior
+  visiblename: task
+  version: 2.5.3
+  origversion: 2.5.3+dfsg-4
+  status: outdated
+  maintainers:
+    - team+tasktools@tracker.debian.org
+    - gordon@chronitis.net
+    - sbadia@debian.org
+  categories:
+    - oldlibs
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: task
   binnames:
     - taskwarrior
@@ -2095,7 +2107,7 @@
   categories:
     - oldlibs
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: task
   binnames:
     - taskwarrior
@@ -2362,29 +2374,6 @@
     - MIT
   categories:
     - debug
-- repo: spack
-  srcname: task
-  visiblename: task
-  version: 3.4.2
-  origversion: null
-  status: outdated
-  maintainers:
-    - fallback-mnt-spack@repology
-  licenses:
-    - MIT
-- repo: t2
-  srcname: task
-  visiblename: task
-  version: 3.5.0
-  origversion: null
-  status: newest
-  summary: Command-line to-do list manager
-  maintainers:
-    - rene@exactco.de
-  licenses:
-    - MIT
-  categories:
-    - extra/base
 - repo: termux
   srcname: taskwarrior
   binname: taskwarrior
