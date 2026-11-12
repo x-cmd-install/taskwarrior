@@ -14,12 +14,12 @@ x install taskwarrior
 
 ## Code insight
 
-Total: **46,879** lines of code across **392** files in the top 5 languages.
+Total: **46,892** lines of code across **392** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 23,976 | 7,833 | 5,336 | 141 |
-| Python | 14,013 | 4,371 | 4,471 | 138 |
+| Cpp | 23,977 | 7,834 | 5,337 | 141 |
+| Python | 14,025 | 4,371 | 4,472 | 138 |
 | Autoconf | 3,081 | 33 | 847 | 6 |
 | CHeader | 2,188 | 2,827 | 720 | 105 |
 | Rust | 1,524 | 51 | 278 | 2 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v3.5.0` (2026-08-16)
-- **Last commit**: 2026-11-10
+- **Last commit**: 2026-11-12
 - **Assets in release**: 1
 
 ## Popularity
 
-- **Stars**: 6,160 · **Forks**: 424 · **Open issues**: 2,985 · **Contributors**: 192
+- **Stars**: 6,165 · **Forks**: 425 · **Open issues**: 2,985 · **Contributors**: 193
 
 ## Totals (cumulative)
 
-- **Releases**: 22 · **Merged PRs**: 869 · **Open PRs**: 4 · **Closed issues**: 2550 · **Open issues**: 435 · **Commits**: 12073
+- **Releases**: 22 · **Merged PRs**: 870 · **Open PRs**: 5 · **Closed issues**: 2550 · **Open issues**: 435 · **Commits**: 12074
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-12 | 0 | 11 | 2 | 0 | 4 | 9 |
-| last60d | 2026-09-12 | 0 | 21 | 2 | 3 | 5 | 21 |
-| 90d | 2026-08-13 | 1 | 36 | 3 | 8 | 6 | 36 |
-| last180d | 2026-05-15 | 1 | 69 | 3 | 21 | 12 | 77 |
-| 360d | 2025-11-16 | 1 | 133 | 4 | 39 | 22 | 149 |
-| last720d | 2024-11-21 | 5 | 274 | 4 | 113 | 58 | 292 |
+| 30d | 2026-10-13 | 0 | 12 | 3 | 0 | 4 | 10 |
+| last60d | 2026-09-13 | 0 | 22 | 3 | 3 | 5 | 22 |
+| 90d | 2026-08-14 | 1 | 36 | 4 | 8 | 6 | 37 |
+| last180d | 2026-05-16 | 1 | 69 | 4 | 21 | 12 | 78 |
+| 360d | 2025-11-17 | 1 | 133 | 5 | 39 | 22 | 150 |
+| last720d | 2024-11-22 | 5 | 273 | 5 | 111 | 58 | 293 |
 
 ## Release assets
 
@@ -73,7 +73,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **195** distros on [repology.org](https://repology.org/project/taskwarrior). **33** are ✅ on the latest upstream release, **117** are ⚠️ on an older version.
+Reported by **194** distros on [repology.org](https://repology.org/project/taskwarrior). **33** are ✅ on the latest upstream release, **116** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -86,7 +86,7 @@ Reported by **195** distros on [repology.org](https://repology.org/project/taskw
 | Fedora rawhide | `3.4.2` | ⚠️ outdated |
 | Nix unstable | `2.6.2` | 🪦 legacy |
 | Void | `3.5.0` | ✅ latest |
-| Alpine edge | `2.6.2` | 🪦 legacy |
+| Alpine edge | `3.5.0` | ✅ latest |
 | openSUSE Tumbleweed | `3.4.2` | ⚠️ outdated |
 
 ## Improve this data
@@ -98,4 +98,4 @@ Install metadata for taskwarrior lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261111.yml` · 2026-11-11T04:16:47Z._
+_Snapshot: `data/card/261112.yml` · 2026-11-12T05:26:47Z._
