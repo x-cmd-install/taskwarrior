@@ -14,12 +14,12 @@ x install taskwarrior
 
 ## Code insight
 
-Total: **46,892** lines of code across **392** files in the top 5 languages.
+Total: **46,920** lines of code across **392** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | Cpp | 23,977 | 7,834 | 5,337 | 141 |
-| Python | 14,025 | 4,371 | 4,472 | 138 |
+| Python | 14,053 | 4,371 | 4,474 | 138 |
 | Autoconf | 3,081 | 33 | 847 | 6 |
 | CHeader | 2,188 | 2,827 | 720 | 105 |
 | Rust | 1,524 | 51 | 278 | 2 |
@@ -43,7 +43,7 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v3.5.0` (2026-08-16)
-- **Last commit**: 2026-11-12
+- **Last commit**: 2026-11-13
 - **Assets in release**: 1
 
 ## Popularity
@@ -52,18 +52,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 22 · **Merged PRs**: 870 · **Open PRs**: 5 · **Closed issues**: 2550 · **Open issues**: 435 · **Commits**: 12074
+- **Releases**: 22 · **Merged PRs**: 871 · **Open PRs**: 4 · **Closed issues**: 2550 · **Open issues**: 435 · **Commits**: 12075
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-13 | 0 | 12 | 3 | 0 | 4 | 10 |
-| last60d | 2026-09-13 | 0 | 22 | 3 | 3 | 5 | 22 |
-| 90d | 2026-08-14 | 1 | 36 | 4 | 8 | 6 | 37 |
-| last180d | 2026-05-16 | 1 | 69 | 4 | 21 | 12 | 78 |
-| 360d | 2025-11-17 | 1 | 133 | 5 | 39 | 22 | 150 |
-| last720d | 2024-11-22 | 5 | 273 | 5 | 111 | 58 | 293 |
+| 30d | 2026-10-14 | 0 | 11 | 2 | 0 | 4 | 11 |
+| last60d | 2026-09-14 | 0 | 22 | 2 | 3 | 5 | 23 |
+| 90d | 2026-08-15 | 1 | 35 | 3 | 8 | 6 | 38 |
+| last180d | 2026-05-17 | 1 | 70 | 3 | 21 | 12 | 79 |
+| 360d | 2025-11-18 | 1 | 134 | 4 | 39 | 22 | 151 |
+| last720d | 2024-11-23 | 5 | 274 | 4 | 111 | 58 | 292 |
 
 ## Release assets
 
@@ -98,4 +98,4 @@ Install metadata for taskwarrior lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261112.yml` · 2026-11-12T05:26:47Z._
+_Snapshot: `data/card/261113.yml` · 2026-11-13T04:42:09Z._
