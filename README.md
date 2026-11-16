@@ -14,12 +14,12 @@ x install taskwarrior
 
 ## Code insight
 
-Total: **46,920** lines of code across **392** files in the top 5 languages.
+Total: **46,958** lines of code across **392** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 23,977 | 7,834 | 5,337 | 141 |
-| Python | 14,053 | 4,371 | 4,474 | 138 |
+| Cpp | 23,983 | 7,835 | 5,337 | 141 |
+| Python | 14,085 | 4,371 | 4,479 | 138 |
 | Autoconf | 3,081 | 33 | 847 | 6 |
 | CHeader | 2,188 | 2,827 | 720 | 105 |
 | Rust | 1,524 | 51 | 278 | 2 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v3.5.0` (2026-08-16)
-- **Last commit**: 2026-11-13
+- **Last commit**: 2026-11-15
 - **Assets in release**: 1
 
 ## Popularity
 
-- **Stars**: 6,169 · **Forks**: 425 · **Open issues**: 2,986 · **Contributors**: 193
+- **Stars**: 6,169 · **Forks**: 425 · **Open issues**: 2,986 · **Contributors**: 194
 
 ## Totals (cumulative)
 
-- **Releases**: 22 · **Merged PRs**: 871 · **Open PRs**: 6 · **Closed issues**: 2551 · **Open issues**: 435 · **Commits**: 12075
+- **Releases**: 22 · **Merged PRs**: 873 · **Open PRs**: 5 · **Closed issues**: 2552 · **Open issues**: 434 · **Commits**: 12078
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-16 | 0 | 11 | 4 | 1 | 4 | 9 |
-| last60d | 2026-09-16 | 0 | 21 | 4 | 4 | 4 | 22 |
-| 90d | 2026-08-17 | 0 | 31 | 5 | 9 | 6 | 33 |
-| last180d | 2026-05-19 | 1 | 69 | 5 | 22 | 12 | 79 |
-| 360d | 2025-11-20 | 1 | 134 | 6 | 38 | 22 | 147 |
-| last720d | 2024-11-25 | 5 | 271 | 6 | 111 | 58 | 291 |
+| 30d | 2026-10-17 | 0 | 13 | 3 | 1 | 4 | 14 |
+| last60d | 2026-09-17 | 0 | 23 | 3 | 4 | 4 | 27 |
+| 90d | 2026-08-18 | 0 | 32 | 4 | 8 | 6 | 38 |
+| last180d | 2026-05-20 | 1 | 71 | 4 | 22 | 12 | 84 |
+| 360d | 2025-11-21 | 1 | 135 | 5 | 38 | 22 | 152 |
+| last720d | 2024-11-26 | 5 | 272 | 5 | 111 | 57 | 291 |
 
 ## Release assets
 
@@ -98,4 +98,4 @@ Install metadata for taskwarrior lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261115.yml` · 2026-11-15T04:26:45Z._
+_Snapshot: `data/card/261116.yml` · 2026-11-16T04:23:44Z._
