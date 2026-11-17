@@ -26,7 +26,7 @@ Total: **46,958** lines of code across **392** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **5.5 / 10**
+Overall score: **5.7 / 10**
 
 Lowest-scoring checks:
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v3.5.0` (2026-08-16)
-- **Last commit**: 2026-11-15
+- **Last commit**: 2026-11-16
 - **Assets in release**: 1
 
 ## Popularity
 
-- **Stars**: 6,169 · **Forks**: 425 · **Open issues**: 2,986 · **Contributors**: 194
+- **Stars**: 6,170 · **Forks**: 425 · **Open issues**: 2,986 · **Contributors**: 194
 
 ## Totals (cumulative)
 
-- **Releases**: 22 · **Merged PRs**: 873 · **Open PRs**: 5 · **Closed issues**: 2552 · **Open issues**: 434 · **Commits**: 12078
+- **Releases**: 22 · **Merged PRs**: 874 · **Open PRs**: 5 · **Closed issues**: 2552 · **Open issues**: 434 · **Commits**: 12079
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 0 | 13 | 3 | 1 | 4 | 14 |
-| last60d | 2026-09-17 | 0 | 23 | 3 | 4 | 4 | 27 |
-| 90d | 2026-08-18 | 0 | 32 | 4 | 8 | 6 | 38 |
-| last180d | 2026-05-20 | 1 | 71 | 4 | 22 | 12 | 84 |
-| 360d | 2025-11-21 | 1 | 135 | 5 | 38 | 22 | 152 |
-| last720d | 2024-11-26 | 5 | 272 | 5 | 111 | 57 | 291 |
+| 30d | 2026-10-18 | 0 | 14 | 3 | 1 | 4 | 15 |
+| last60d | 2026-09-18 | 0 | 24 | 3 | 4 | 4 | 28 |
+| 90d | 2026-08-19 | 0 | 31 | 4 | 8 | 6 | 39 |
+| last180d | 2026-05-21 | 1 | 72 | 4 | 22 | 12 | 85 |
+| 360d | 2025-11-22 | 1 | 136 | 5 | 38 | 22 | 153 |
+| last720d | 2024-11-27 | 5 | 273 | 5 | 110 | 57 | 292 |
 
 ## Release assets
 
@@ -73,7 +73,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **194** distros on [repology.org](https://repology.org/project/taskwarrior). **33** are ✅ on the latest upstream release, **116** are ⚠️ on an older version.
+Reported by **196** distros on [repology.org](https://repology.org/project/taskwarrior). **33** are ✅ on the latest upstream release, **117** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -86,7 +86,7 @@ Reported by **194** distros on [repology.org](https://repology.org/project/taskw
 | Fedora rawhide | `3.4.2` | ⚠️ outdated |
 | Nix unstable | `2.6.2` | 🪦 legacy |
 | Void | `3.5.0` | ✅ latest |
-| Alpine edge | `3.5.0` | ✅ latest |
+| Alpine edge | `2.6.2` | 🪦 legacy |
 | openSUSE Tumbleweed | `3.4.2` | ⚠️ outdated |
 
 ## Improve this data
@@ -98,4 +98,4 @@ Install metadata for taskwarrior lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261116.yml` · 2026-11-16T04:23:44Z._
+_Snapshot: `data/card/261117.yml` · 2026-11-17T06:08:52Z._
