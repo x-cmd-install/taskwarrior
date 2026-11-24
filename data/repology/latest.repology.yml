@@ -1,10 +1,31 @@
-- repo: homebrew
-  srcname: task
-  visiblename: task
+- repo: pld
+  srcname: taskwarrior
+  visiblename: taskwarrior
+  version: 2.6.2
+  origversion: 2.6.2-1
+  status: outdated
+- repo: wikidata
+  srcname: Q3515953
+  visiblename: Taskwarrior
   version: 3.5.0
   origversion: null
   status: newest
-  summary: Feature-rich console based todo list manager
+  summary: open-source time and task management tool
+  licenses:
+    - MIT License
+- repo: alpine_3_18
+  subrepo: community
+  srcname: task
+  binname: task
+  visiblename: task
+  version: 2.6.2
+  origversion: 2.6.2-r1
+  status: outdated
+  summary: command-line to-do list manager
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
 - repo: alpine_3_17
   subrepo: community
   srcname: task
@@ -66,19 +87,6 @@
   origversion: 2.6.2-r1
   status: outdated
   summary: command-line to-do list manager (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_18
-  subrepo: community
-  srcname: task
-  binname: task
-  visiblename: task
-  version: 2.6.2
-  origversion: 2.6.2-r1
-  status: outdated
-  summary: command-line to-do list manager
   maintainers:
     - ncopa@alpinelinux.org
   licenses:
@@ -473,6 +481,21 @@
     - ncopa@alpinelinux.org
   licenses:
     - MIT
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: task
+  binnames:
+    - taskwarrior
+  visiblename: task
+  version: 2.5.1
+  origversion: 2.5.1+dfsg-7
+  status: outdated
+  maintainers:
+    - taskdeb-discuss@nongnu.org
+    - gordon@chronitis.net
+    - sbadia@debian.org
+  categories:
+    - utils
 - repo: alpine_3_22
   subrepo: community
   srcname: task3
@@ -1125,7 +1148,7 @@
   categories:
     - oldlibs
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: task
   binnames:
     - taskwarrior
@@ -1327,22 +1350,6 @@
   categories:
     - Unspecified
 - repo: fedora_40
-  subrepo: updates
-  srcname: task2
-  binnames:
-    - task2
-    - task2-debuginfo
-    - task2-debugsource
-  visiblename: task2
-  version: 2.6.2
-  origversion: 2.6.2-2.fc40
-  status: outdated
-  summary: Taskwarrior - a command-line TODO list manager
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_40
   subrepo: release
   srcname: task
   binnames:
@@ -1352,6 +1359,22 @@
   visiblename: task
   version: 2.6.2
   origversion: 2.6.2-6.fc40
+  status: outdated
+  summary: Taskwarrior - a command-line TODO list manager
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_40
+  subrepo: updates
+  srcname: task2
+  binnames:
+    - task2
+    - task2-debuginfo
+    - task2-debugsource
+  visiblename: task2
+  version: 2.6.2
+  origversion: 2.6.2-2.fc40
   status: outdated
   summary: Taskwarrior - a command-line TODO list manager
   licenses:
@@ -1372,6 +1395,21 @@
     - MIT
   categories:
     - Unspecified
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: task
+  binnames:
+    - taskwarrior
+  visiblename: task
+  version: 2.5.3
+  origversion: 2.5.3+dfsg-4
+  status: outdated
+  maintainers:
+    - team+tasktools@tracker.debian.org
+    - gordon@chronitis.net
+    - sbadia@debian.org
+  categories:
+    - utils
 - repo: fedora_41
   subrepo: release
   srcname: task2
@@ -1442,13 +1480,6 @@
     - MIT AND (Apache-2.0 OR MIT) AND BSD-3-Clause AND (0BSD OR MIT OR Apache-2.0) AND Apache-2.0 AND Apache-2.0 AND ISC AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR ISC OR MIT) AND (Apache-2.0 OR MIT) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND BSD-3-Clause AND ISC AND ISC AND (Apache-2.0 OR ISC) AND ISC AND (Apache-2.0 OR ISC) AND OpenSSL AND MIT AND (MIT OR Apache-2.0) AND (MIT OR Zlib OR Apache-2.0) AND MPL-2.0 AND Unicode-3.0 AND (Unlicense OR MIT) AND Zlib
   categories:
     - Unspecified
-- repo: homebrew
-  srcname: task
-  visiblename: task
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Feature-rich console based todo list manager
 - repo: fedora_43
   subrepo: release
   srcname: task
@@ -1478,7 +1509,7 @@
   categories:
     - Unspecified
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: task
   binnames:
     - taskwarrior
@@ -1571,6 +1602,20 @@
     - MIT
   categories:
     - Unspecified
+- repo: nix_stable_24_11
+  srcname: taskwarrior3
+  visiblename: taskwarrior
+  version: 3.1.0
+  origversion: null
+  status: outdated
+  summary: Highly flexible command-line tool to manage TODO lists
+  maintainers:
+    - marco-oweber@gmx.de
+    - oxalicc@pm.me
+    - mlaradji@pm.me
+    - me@doronbehar.com
+  licenses:
+    - MIT
 - repo: fedora_rawhide
   subrepo: development
   srcname: task
@@ -1658,6 +1703,20 @@
   status: outdated
   categories:
     - app-misc
+- repo: homebrew
+  srcname: task
+  visiblename: task
+  version: 3.5.0
+  origversion: null
+  status: newest
+  summary: Feature-rich console based todo list manager
+- repo: homebrew
+  srcname: task
+  visiblename: task
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Feature-rich console based todo list manager
 - repo: kali_rolling
   subrepo: main
   srcname: task
@@ -1842,20 +1901,6 @@
   maintainers:
     - marco-oweber@gmx.de
     - oxalicc@pm.me
-  licenses:
-    - MIT
-- repo: nix_stable_24_11
-  srcname: taskwarrior3
-  visiblename: taskwarrior
-  version: 3.1.0
-  origversion: null
-  status: outdated
-  summary: Highly flexible command-line tool to manage TODO lists
-  maintainers:
-    - marco-oweber@gmx.de
-    - oxalicc@pm.me
-    - mlaradji@pm.me
-    - me@doronbehar.com
   licenses:
     - MIT
 - repo: nix_stable_25_05
@@ -2142,42 +2187,6 @@
     - esg@sdf.lonestar.org
   categories:
     - time
-- repo: pld
-  srcname: taskwarrior
-  visiblename: taskwarrior
-  version: 2.6.2
-  origversion: 2.6.2-1
-  status: outdated
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: task
-  binnames:
-    - taskwarrior
-  visiblename: task
-  version: 2.5.1
-  origversion: 2.5.1+dfsg-7
-  status: outdated
-  maintainers:
-    - taskdeb-discuss@nongnu.org
-    - gordon@chronitis.net
-    - sbadia@debian.org
-  categories:
-    - utils
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: task
-  binnames:
-    - taskwarrior
-  visiblename: task
-  version: 2.5.3
-  origversion: 2.5.3+dfsg-4
-  status: outdated
-  maintainers:
-    - team+tasktools@tracker.debian.org
-    - gordon@chronitis.net
-    - sbadia@debian.org
-  categories:
-    - utils
 - repo: pureos_landing
   subrepo: landing/main
   srcname: task
@@ -2522,21 +2531,6 @@
   binnames:
     - taskwarrior
   visiblename: task
-  version: 3.4.2
-  origversion: 3.4.2+dfsg-4
-  status: outdated
-  maintainers:
-    - team+tasktools@tracker.debian.org
-    - gordon@chronitis.net
-    - sbadia@debian.org
-  categories:
-    - universe/utils
-- repo: ubuntu_27_04_proposed
-  subrepo: tenacious-proposed/universe
-  srcname: task
-  binnames:
-    - taskwarrior
-  visiblename: task
   version: 3.5.0
   origversion: 3.5.0+dfsg-3
   status: newest
@@ -2560,12 +2554,3 @@
     - orphan@voidlinux.org
   licenses:
     - MIT
-- repo: wikidata
-  srcname: Q3515953
-  visiblename: Taskwarrior
-  version: 3.5.0
-  origversion: null
-  status: newest
-  summary: open-source time and task management tool
-  licenses:
-    - MIT License
