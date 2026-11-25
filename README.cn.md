@@ -14,14 +14,14 @@ x install taskwarrior
 
 ## 代码洞察
 
-合计: **47,819** 行代码（覆盖前 5 种语言、共 **401** 个文件）。
+合计: **47,831** 行代码（覆盖前 5 种语言、共 **401** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Cpp | 24,237 | 7,975 | 5,383 | 145 |
+| Cpp | 24,251 | 7,976 | 5,384 | 145 |
 | Python | 14,445 | 4,373 | 4,520 | 139 |
 | Autoconf | 3,282 | 33 | 909 | 7 |
-| CHeader | 2,223 | 2,905 | 733 | 108 |
+| CHeader | 2,224 | 2,905 | 733 | 108 |
 | Rust | 1,527 | 51 | 278 | 2 |
 
 ## OpenSSF Scorecard 评分
@@ -42,51 +42,51 @@ x install taskwarrior
 
 ## 发布
 
-- **最新版本**: `v3.5.0` (2026-08-16)
-- **最近提交**: 2026-11-23
+- **最新版本**: `v3.6.0` (2026-11-25)
+- **最近提交**: 2026-11-25
 - **Release 含资产**: 1 个
 
 ## 流行度
 
-- **Star**: 6,182 · **Fork**: 426 · **开放 issue**: 2,986 · **贡献者**: 194
+- **Star**: 6,182 · **Fork**: 426 · **开放 issue**: 2,988 · **贡献者**: 194
 
 ## 累计统计
 
-- **发布数**: 22 · **已合并 PR**: 879 · **开放 PR**: 3 · **已关闭 issue**: 2558 · **开放 issue**: 428 · **提交数**: 12085
+- **发布数**: 23 · **已合并 PR**: 880 · **开放 PR**: 4 · **已关闭 issue**: 2558 · **开放 issue**: 430 · **提交数**: 12086
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 0 | 16 | 0 | 3 | 2 | 19 |
-| last60d | 2026-09-25 | 0 | 25 | 1 | 4 | 2 | 29 |
-| 90d | 2026-08-26 | 0 | 34 | 2 | 9 | 3 | 42 |
-| last180d | 2026-05-28 | 1 | 75 | 2 | 25 | 9 | 89 |
-| 360d | 2025-11-29 | 1 | 135 | 3 | 41 | 18 | 155 |
-| last720d | 2024-12-04 | 5 | 273 | 3 | 113 | 52 | 292 |
+| 30d | 2026-10-26 | 1 | 15 | 1 | 3 | 4 | 20 |
+| last60d | 2026-09-26 | 1 | 26 | 2 | 4 | 4 | 30 |
+| 90d | 2026-08-27 | 1 | 35 | 2 | 9 | 5 | 43 |
+| last180d | 2026-05-29 | 2 | 76 | 3 | 25 | 11 | 90 |
+| 360d | 2025-11-30 | 2 | 135 | 4 | 41 | 20 | 156 |
+| last720d | 2024-12-05 | 6 | 273 | 4 | 113 | 54 | 293 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [task-3.5.0.tar.gz](https://github.com/GothenburgBitFactory/taskwarrior/releases/download/v3.5.0/task-3.5.0.tar.gz) | 947.5 KiB | `native/unknown` |
+| [task-3.6.0.tar.gz](https://github.com/GothenburgBitFactory/taskwarrior/releases/download/v3.6.0/task-3.6.0.tar.gz) | 959.2 KiB | `native/unknown` |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/taskwarrior) 上共有 **193** 个发行版报告此项目。**33** 个 ✅ 已是最新上游版本，**114** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/taskwarrior) 上共有 **192** 个发行版报告此项目。**1** 个 ✅ 已是最新上游版本，**145** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
-| Debian unstable | `3.5.0` | ✅ latest |
-| Debian 14 | `3.5.0` | ✅ latest |
+| Debian unstable | `3.5.0` | ⚠️ outdated |
+| Debian 14 | `3.5.0` | ⚠️ outdated |
 | Debian 13 | `2.6.2` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `2.6.2` | ⚠️ outdated |
-| Arch | `3.5.0` | ✅ latest |
-| Homebrew | `3.5.0` | ✅ latest |
+| Arch | `3.5.0` | ⚠️ outdated |
+| Homebrew | `3.6.0` | ✅ latest |
 | Fedora rawhide | `3.4.2` | ⚠️ outdated |
 | Nix unstable | `2.6.2` | 🪦 legacy |
-| Void | `3.5.0` | ✅ latest |
-| Alpine edge | `3.5.0` | ✅ latest |
+| Void | `3.5.0` | ⚠️ outdated |
+| Alpine edge | `3.5.0` | ⚠️ outdated |
 | openSUSE Tumbleweed | `3.4.2` | ⚠️ outdated |
 
 ## 改进这些数据
@@ -98,4 +98,4 @@ taskwarrior 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/insta
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261124.yml` · 2026-11-24T07:59:47Z._
+_数据快照: `data/card/261125.yml` · 2026-11-25T06:37:20Z._

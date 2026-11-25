@@ -14,14 +14,14 @@ x install taskwarrior
 
 ## Code insight
 
-Total: **47,819** lines of code across **401** files in the top 5 languages.
+Total: **47,831** lines of code across **401** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 24,237 | 7,975 | 5,383 | 145 |
+| Cpp | 24,251 | 7,976 | 5,384 | 145 |
 | Python | 14,445 | 4,373 | 4,520 | 139 |
 | Autoconf | 3,282 | 33 | 909 | 7 |
-| CHeader | 2,223 | 2,905 | 733 | 108 |
+| CHeader | 2,224 | 2,905 | 733 | 108 |
 | Rust | 1,527 | 51 | 278 | 2 |
 
 ## OpenSSF Scorecard
@@ -42,51 +42,51 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v3.5.0` (2026-08-16)
-- **Last commit**: 2026-11-23
+- **Latest**: `v3.6.0` (2026-11-25)
+- **Last commit**: 2026-11-25
 - **Assets in release**: 1
 
 ## Popularity
 
-- **Stars**: 6,182 · **Forks**: 426 · **Open issues**: 2,986 · **Contributors**: 194
+- **Stars**: 6,182 · **Forks**: 426 · **Open issues**: 2,988 · **Contributors**: 194
 
 ## Totals (cumulative)
 
-- **Releases**: 22 · **Merged PRs**: 879 · **Open PRs**: 3 · **Closed issues**: 2558 · **Open issues**: 428 · **Commits**: 12085
+- **Releases**: 23 · **Merged PRs**: 880 · **Open PRs**: 4 · **Closed issues**: 2558 · **Open issues**: 430 · **Commits**: 12086
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 0 | 16 | 0 | 3 | 2 | 19 |
-| last60d | 2026-09-25 | 0 | 25 | 1 | 4 | 2 | 29 |
-| 90d | 2026-08-26 | 0 | 34 | 2 | 9 | 3 | 42 |
-| last180d | 2026-05-28 | 1 | 75 | 2 | 25 | 9 | 89 |
-| 360d | 2025-11-29 | 1 | 135 | 3 | 41 | 18 | 155 |
-| last720d | 2024-12-04 | 5 | 273 | 3 | 113 | 52 | 292 |
+| 30d | 2026-10-26 | 1 | 15 | 1 | 3 | 4 | 20 |
+| last60d | 2026-09-26 | 1 | 26 | 2 | 4 | 4 | 30 |
+| 90d | 2026-08-27 | 1 | 35 | 2 | 9 | 5 | 43 |
+| last180d | 2026-05-29 | 2 | 76 | 3 | 25 | 11 | 90 |
+| 360d | 2025-11-30 | 2 | 135 | 4 | 41 | 20 | 156 |
+| last720d | 2024-12-05 | 6 | 273 | 4 | 113 | 54 | 293 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [task-3.5.0.tar.gz](https://github.com/GothenburgBitFactory/taskwarrior/releases/download/v3.5.0/task-3.5.0.tar.gz) | 947.5 KiB | `native/unknown` |
+| [task-3.6.0.tar.gz](https://github.com/GothenburgBitFactory/taskwarrior/releases/download/v3.6.0/task-3.6.0.tar.gz) | 959.2 KiB | `native/unknown` |
 
 ## Distribution status
 
-Reported by **193** distros on [repology.org](https://repology.org/project/taskwarrior). **33** are ✅ on the latest upstream release, **114** are ⚠️ on an older version.
+Reported by **192** distros on [repology.org](https://repology.org/project/taskwarrior). **1** are ✅ on the latest upstream release, **145** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Debian unstable | `3.5.0` | ✅ latest |
-| Debian 14 | `3.5.0` | ✅ latest |
+| Debian unstable | `3.5.0` | ⚠️ outdated |
+| Debian 14 | `3.5.0` | ⚠️ outdated |
 | Debian 13 | `2.6.2` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `2.6.2` | ⚠️ outdated |
-| Arch | `3.5.0` | ✅ latest |
-| Homebrew | `3.5.0` | ✅ latest |
+| Arch | `3.5.0` | ⚠️ outdated |
+| Homebrew | `3.6.0` | ✅ latest |
 | Fedora rawhide | `3.4.2` | ⚠️ outdated |
 | Nix unstable | `2.6.2` | 🪦 legacy |
-| Void | `3.5.0` | ✅ latest |
-| Alpine edge | `3.5.0` | ✅ latest |
+| Void | `3.5.0` | ⚠️ outdated |
+| Alpine edge | `3.5.0` | ⚠️ outdated |
 | openSUSE Tumbleweed | `3.4.2` | ⚠️ outdated |
 
 ## Improve this data
@@ -98,4 +98,4 @@ Install metadata for taskwarrior lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T07:59:46Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T06:37:19Z._
