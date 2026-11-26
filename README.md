@@ -14,7 +14,7 @@ x install taskwarrior
 
 ## Code insight
 
-Total: **47,831** lines of code across **401** files in the top 5 languages.
+Total: **47,839** lines of code across **401** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
@@ -43,51 +43,33 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v3.6.0` (2026-11-25)
-- **Last commit**: 2026-11-25
+- **Last commit**: 2026-11-26
 - **Assets in release**: 1
 
 ## Popularity
 
-- **Stars**: 6,182 · **Forks**: 426 · **Open issues**: 2,988 · **Contributors**: 194
+- **Stars**: 6,185 · **Forks**: 426 · **Open issues**: 2,990 · **Contributors**: 195
 
 ## Totals (cumulative)
 
-- **Releases**: 23 · **Merged PRs**: 880 · **Open PRs**: 4 · **Closed issues**: 2558 · **Open issues**: 430 · **Commits**: 12086
+- **Releases**: 23 · **Merged PRs**: 882 · **Open PRs**: 7 · **Closed issues**: 2559 · **Open issues**: 431 · **Commits**: 12088
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-26 | 1 | 15 | 1 | 3 | 4 | 20 |
-| last60d | 2026-09-26 | 1 | 26 | 2 | 4 | 4 | 30 |
-| 90d | 2026-08-27 | 1 | 35 | 2 | 9 | 5 | 43 |
-| last180d | 2026-05-29 | 2 | 76 | 3 | 25 | 11 | 90 |
-| 360d | 2025-11-30 | 2 | 135 | 4 | 41 | 20 | 156 |
-| last720d | 2024-12-05 | 6 | 273 | 4 | 113 | 54 | 293 |
+| 30d | 2026-10-27 | 1 | 17 | 4 | 4 | 5 | 22 |
+| last60d | 2026-09-27 | 1 | 28 | 5 | 5 | 5 | 32 |
+| 90d | 2026-08-28 | 1 | 36 | 5 | 10 | 6 | 45 |
+| last180d | 2026-05-30 | 2 | 78 | 6 | 26 | 12 | 92 |
+| 360d | 2025-12-01 | 2 | 137 | 7 | 42 | 21 | 158 |
+| last720d | 2024-12-06 | 6 | 275 | 7 | 114 | 55 | 295 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
 | [task-3.6.0.tar.gz](https://github.com/GothenburgBitFactory/taskwarrior/releases/download/v3.6.0/task-3.6.0.tar.gz) | 959.2 KiB | `native/unknown` |
-
-## Distribution status
-
-Reported by **192** distros on [repology.org](https://repology.org/project/taskwarrior). **1** are ✅ on the latest upstream release, **145** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `3.5.0` | ⚠️ outdated |
-| Debian 14 | `3.5.0` | ⚠️ outdated |
-| Debian 13 | `2.6.2` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `2.6.2` | ⚠️ outdated |
-| Arch | `3.5.0` | ⚠️ outdated |
-| Homebrew | `3.6.0` | ✅ latest |
-| Fedora rawhide | `3.4.2` | ⚠️ outdated |
-| Nix unstable | `2.6.2` | 🪦 legacy |
-| Void | `3.5.0` | ⚠️ outdated |
-| Alpine edge | `3.5.0` | ⚠️ outdated |
-| openSUSE Tumbleweed | `3.4.2` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -98,4 +80,4 @@ Install metadata for taskwarrior lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261125.yml` · 2026-11-25T06:37:19Z._
+_Snapshot: `data/card/261126.yml` · 2026-11-26T06:28:58Z._
