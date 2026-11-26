@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 982269,
       "digest": "sha256:2873ca80feb03ac202816d69a57f06403bf1c2d7ca082ac9f3aa06ad9f1d7a8a",
-      "download_count": 36,
+      "download_count": 153,
       "created_at": "2026-11-25T02:28:53Z",
       "updated_at": "2026-11-25T02:28:54Z",
       "browser_download_url": "https://github.com/GothenburgBitFactory/taskwarrior/releases/download/v3.6.0/task-3.6.0.tar.gz"
@@ -78,11 +78,11 @@
   "body": "## What's Changed\r\n - Iterative tasks are now available as an experimental feature (#4210)\r\n - Terminal width and the `rc.defaultwidth` are now handled better in task burndown (#4225, #4226, #4227, #4230)\r\n - Annotations widths are handled correctly in reports (#4233)\r\n - The task projects output now correctly nests projects (#4232)\r\n - The OR operator is now rejected in contexts, as it behaves differently for read and write (#4229)\r\n - Setting LIBSQLITE3_SYS_USE_PKG_CONFIG when building will link to the system SQLite library (#4223)\r\n - Dashes are now allowed in rc.* DOM references (#4197)\r\n - Wrapped annotation lines in task list reports now retain their indentation (#4189)\r\n - S3-compatible storage backends can be used with the new rc.sync.aws.endpoint_url config (#4176)\r\n\r\n## New Contributors\r\n* @freswa made their first contribution in https://github.com/GothenburgBitFactory/taskwarrior/pull/4176\r\n* @gregbell made their first contribution in https://github.com/GothenburgBitFactory/taskwarrior/pull/4189\r\n* @swardman made their first contribution in https://github.com/GothenburgBitFactory/taskwarrior/pull/4190\r\n* @brzzdev made their first contribution in https://github.com/GothenburgBitFactory/taskwarrior/pull/4200\r\n* @RayanR000 made their first contribution in https://github.com/GothenburgBitFactory/taskwarrior/pull/4197\r\n* @jatinninety9 made their first contribution in https://github.com/GothenburgBitFactory/taskwarrior/pull/4225\r\n\r\n**Full Changelog**: https://github.com/GothenburgBitFactory/taskwarrior/compare/v3.5.0...v3.6.0",
   "reactions": {
     "url": "https://api.github.com/repos/GothenburgBitFactory/taskwarrior/releases/457576189/reactions",
-    "total_count": 1,
+    "total_count": 3,
     "+1": 0,
     "-1": 0,
     "laugh": 0,
-    "hooray": 1,
+    "hooray": 3,
     "confused": 0,
     "heart": 0,
     "rocket": 0,
