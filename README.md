@@ -14,12 +14,12 @@ x install taskwarrior
 
 ## Code insight
 
-Total: **47,839** lines of code across **401** files in the top 5 languages.
+Total: **47,853** lines of code across **401** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 24,251 | 7,976 | 5,384 | 145 |
-| Python | 14,445 | 4,373 | 4,520 | 139 |
+| Cpp | 24,251 | 7,977 | 5,384 | 145 |
+| Python | 14,459 | 4,373 | 4,523 | 139 |
 | Autoconf | 3,282 | 33 | 909 | 7 |
 | CHeader | 2,224 | 2,905 | 733 | 108 |
 | Rust | 1,527 | 51 | 278 | 2 |
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,185 · **Forks**: 426 · **Open issues**: 2,990 · **Contributors**: 195
+- **Stars**: 6,187 · **Forks**: 426 · **Open issues**: 2,991 · **Contributors**: 195
 
 ## Totals (cumulative)
 
-- **Releases**: 23 · **Merged PRs**: 882 · **Open PRs**: 7 · **Closed issues**: 2559 · **Open issues**: 431 · **Commits**: 12088
+- **Releases**: 23 · **Merged PRs**: 883 · **Open PRs**: 6 · **Closed issues**: 2560 · **Open issues**: 431 · **Commits**: 12089
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-27 | 1 | 17 | 4 | 4 | 5 | 22 |
-| last60d | 2026-09-27 | 1 | 28 | 5 | 5 | 5 | 32 |
-| 90d | 2026-08-28 | 1 | 36 | 5 | 10 | 6 | 45 |
-| last180d | 2026-05-30 | 2 | 78 | 6 | 26 | 12 | 92 |
-| 360d | 2025-12-01 | 2 | 137 | 7 | 42 | 21 | 158 |
-| last720d | 2024-12-06 | 6 | 275 | 7 | 114 | 55 | 295 |
+| 30d | 2026-10-28 | 1 | 18 | 3 | 4 | 6 | 23 |
+| last60d | 2026-09-28 | 1 | 29 | 4 | 5 | 6 | 33 |
+| 90d | 2026-08-29 | 1 | 37 | 4 | 10 | 7 | 46 |
+| last180d | 2026-05-31 | 2 | 78 | 5 | 26 | 13 | 93 |
+| 360d | 2025-12-02 | 2 | 138 | 6 | 42 | 22 | 159 |
+| last720d | 2024-12-07 | 6 | 275 | 6 | 114 | 55 | 296 |
 
 ## Release assets
 
@@ -80,4 +80,4 @@ Install metadata for taskwarrior lives in the [x-cmd/install](https://github.com
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261126.yml` · 2026-11-26T06:28:58Z._
+_Snapshot: `data/card/261127.yml` · 2026-11-27T06:19:17Z._
